@@ -1,0 +1,91 @@
+.main-inner {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: all 0.2s !important;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s !important;
+        
+}
+    
+.orangeList .x-list-header {
+    background: #D6D6D6;
+    color: #EB6145;
+    border-top: 0px;
+    border-bottom: 0px;
+
+}
+
+.x-badge {
+    background: #EB6145 !important;
+    color: #fff;
+    border: 1px solid #EB6145;
+}
+.mainmenu {
+   
+  background: #1d1d1d !important;
+
+}
+.main-background {
+    background: #f7f7f7 !important;
+}
+.artist-info-button {
+    background: rgba(255,255,255, 0.8) !important;
+    border-radius: 0px;
+
+}
+.artist-info {
+    font-weight: 100;
+    font-size: 1.6em;
+    text-shadow: 2px 2px #000;
+
+}
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300;
+}
+.saved-panel .x-panel-inner {
+    background-color: transparent !important;
+    background: rgba(0,0,0,0.5);
+}
+
+.icon-twitter, .icon-instagram, .icon-reorder, .icon-calendar-empty, .icon-cancel-circle, .icon-chevron-left, .icon-eye, .icon-play, .icon-pause {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-twitter:before {
+	content: "\e000";
+}
+.icon-instagram:before {
+	content: "\e001";
+}
+.icon-reorder:before {
+	content: "\f0c9";
+}
+.icon-calendar-empty:before {
+	content: "\f133";
+}
+.icon-cancel-circle:before {
+	content: "\e004";
+}
+.icon-chevron-left:before {
+	content: "\f053";
+}
+.icon-eye:before {
+	content: "\e007";
+}
+.icon-play:before {
+	content: "\f04b";
+}
+.icon-pause:before {
+	content: "\f04c";
+}

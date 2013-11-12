@@ -1,0 +1,213 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "idProperty": null,
+        "identifier": [
+            "{\"type\":\"uuid\"}"
+        ],
+        "designer|userClassName": "Artist"
+    },
+    "designerId": "f6f557c2-9125-4f78-b1f5-50e301fa2bdb",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "DayNumber"
+            },
+            "designerId": "8cac78be-562d-4777-8c71-b963a77a47e1"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "song"
+            },
+            "designerId": "aca5e8df-adb0-4809-b13e-1f5c2b3e1bf1"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "artist"
+            },
+            "designerId": "eddfd4ae-01a3-423e-87a4-1adc8a5368a4"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "day"
+            },
+            "designerId": "d0b6ed38-5063-44b7-b659-a91c0f742931"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "venue"
+            },
+            "designerId": "4b817854-1c95-4977-a273-783cad4ed489"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "year"
+            },
+            "designerId": "a85c91c6-1f29-4786-ab40-e45bd088caae"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "track_id",
+                "type": null
+            },
+            "designerId": "c7fac40f-409a-4861-8c62-1d402f8c75d2"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "time"
+            },
+            "designerId": "1fb05b57-061d-45bd-aa0b-1d0d630cfac0"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "jDate",
+                "type": "date"
+            },
+            "designerId": "c6b8021d-8c48-4482-a153-d0502af49f34"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "artwork_url"
+            },
+            "designerId": "0838ba7c-72c4-4b7c-b381-fcb74c2cfa1f"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "description"
+            },
+            "designerId": "ce486e1e-9dcb-417f-a7ea-655b02aa9f7a"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "permalink_url"
+            },
+            "designerId": "468e1ec3-0a9f-4e40-b134-b98ab56fae5c"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "saved",
+                "type": "boolean"
+            },
+            "designerId": "e341cb7c-9057-45dc-9bf8-a70880d649ed"
+        },
+        {
+            "type": "Ext.data.proxy.LocalStorage",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "Artist_Id"
+            },
+            "designerId": "ce644ae4-b95a-4be0-9fb7-21b2de67b1cc"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "id"
+            },
+            "designerId": "dc1aa4fb-76b3-4870-b597-3ae550cd7bc6"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "waveform_url"
+            },
+            "designerId": "89092f28-b490-4b9a-ba85-3f88f29d0a99"
+        }
+    ]
+}

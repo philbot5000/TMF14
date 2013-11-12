@@ -1,0 +1,104 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Master"
+    },
+    "designerId": "227fd87a-8e2c-4751-9470-6f29c42fe7ea",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onMenuItemTap",
+                "implHandler": [
+                    "var menu = Ext.ComponentQuery.query('#mainMenu')[0],",
+                    "    main = Ext.getCmp('main'),",
+                    "    me = this;",
+                    "",
+                    "switch(record.data.item) {",
+                    "",
+                    "    case 'Saved Artists':",
+                    "",
+                    "    if(main.getActiveItem !== 'savedArtists') {",
+                    "        me.redirectTo('savedArtists');",
+                    "    }",
+                    "    TMF14.app.toggleMenu();",
+                    "",
+                    "    break;",
+                    "",
+                    "    case 'Thursday, March 20':",
+                    "    if(main.getActiveItem() !== 'day1') {",
+                    "        me.redirectTo('Day1');",
+                    "    }",
+                    "",
+                    "    TMF14.app.toggleMenu();",
+                    "",
+                    "    break;",
+                    "    case 'Friday, March 21':",
+                    "    if(main.getActiveItem() !== 'day2') {",
+                    "        me.redirectTo('Day2');",
+                    "    }",
+                    "",
+                    "    TMF14.app.toggleMenu();",
+                    "",
+                    "    break;",
+                    "",
+                    "    case 'Saturday, March 22':",
+                    "    if(main.getActiveItem() !== 'day3') {",
+                    "        me.redirectTo('Day3');",
+                    "    }",
+                    "",
+                    "    TMF14.app.toggleMenu();",
+                    "",
+                    "    break;",
+                    "    case 'Sunday, March 23':",
+                    "",
+                    "    if(main.getActiveItem() !== 'day4') {",
+                    "        me.redirectTo('Day4');",
+                    "    }",
+                    "",
+                    "    TMF14.app.toggleMenu();",
+                    "    break;",
+                    "",
+                    "    case '':",
+                    "",
+                    "    break;",
+                    "    default: ",
+                    "",
+                    "}"
+                ],
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "#menu"
+            },
+            "designerId": "21117d88-4c02-4a92-b333-496f58be884c"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onMenuButtonTap",
+                "implHandler": [
+                    "TMF14.app.toggleMenu();"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#menuButton"
+            },
+            "designerId": "d0d18961-1c2d-4578-b64e-23e755f304f4"
+        }
+    ]
+}

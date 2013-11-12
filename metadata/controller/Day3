@@ -1,0 +1,113 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Day3"
+    },
+    "designerId": "8ce5293a-4851-41a4-b3c5-212158710540",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDay3Activate",
+                "implHandler": [
+                    "Ext.ComponentQuery.query('#saturdayListIndicator')[0].show({type: 'fade'});"
+                ],
+                "name": "activate",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#Day3"
+            },
+            "designerId": "aa22db0c-f104-49c8-a9c0-fbc8b2f88656"
+        },
+        {
+            "type": "Ext.app.Route",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "Day3",
+                "fn": "showDay3",
+                "implHandler": [
+                    "var main = Ext.getCmp('main'),",
+                    "    day = Ext.create('TMF14.view.Day3');",
+                    "",
+                    "main.setActiveItem(day);"
+                ]
+            },
+            "designerId": "785b631c-25ad-4fd2-9d69-de2f19c452eb"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDay3Initialize",
+                "implHandler": [
+                    "TMF14.app.setDayIndicator(component, '#saturdayListIndicator');"
+                ],
+                "name": "initialize",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#Day3"
+            },
+            "designerId": "e853f880-e2dd-4fb4-b7ef-c1d196b32997"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDay3Hide",
+                "implHandler": [
+                    "setTimeout(function() {",
+                    "    component.destroy();",
+                    "}, 500);"
+                ],
+                "name": "hide",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#Day3"
+            },
+            "designerId": "fae7caa3-0462-4cd1-890c-3ce595c0a81d"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDay3ItemTap",
+                "implHandler": [
+                    "var main = Ext.getCmp('main'),",
+                    "    backButton = Ext.ComponentQuery.query('#backButton')[0];",
+                    "",
+                    "backButton.dayNumber = 'Day3';",
+                    "",
+                    "main.artistInfo = record.data;",
+                    "this.redirectTo('artistDetail');"
+                ],
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#Day3"
+            },
+            "designerId": "23eec379-72b4-4c38-b507-2949c02fbf31"
+        }
+    ]
+}

@@ -1,0 +1,259 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "hideAnimation": [
+            "{type:'slideOut', reveal: true, direction: 'right'}"
+        ],
+        "itemId": "artistDetail",
+        "zIndex": 2,
+        "designer|userClassName": "ArtistDetail",
+        "designer|userAlias": null,
+        "layout": "vbox"
+    },
+    "configAlternates": {
+        "showAnimation": "object",
+        "hideAnimation": "object"
+    },
+    "designerId": "78ca404c-e66d-4d12-a9de-d5a74a8f7d2f",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "itemId": "artistMain",
+                "style": "background: url('img/badge.png'); background-size: 50% auto",
+                "layout": "vbox"
+            },
+            "designerId": "6fc7a3a0-d333-4716-ad6d-1096b3ed3291",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": "100%",
+                        "hidden": true,
+                        "itemId": "artistInfoContainer",
+                        "padding": null,
+                        "showAnimation": [
+                            "{type:'fade'}"
+                        ],
+                        "style": "position: relative; background: rgba(0,0,0,0.5);",
+                        "top": 0,
+                        "width": "100%",
+                        "zIndex": null,
+                        "layout": "vbox"
+                    },
+                    "configAlternates": {
+                        "showAnimation": "object"
+                    },
+                    "designerId": "3965101d-5bb8-445d-9e57-1b3ce09b1887",
+                    "cn": [
+                        {
+                            "type": "Ext.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": null,
+                                "hidden": false,
+                                "itemId": "artistInfoButtons",
+                                "padding": 10,
+                                "layout": "hbox"
+                            },
+                            "designerId": "9eeb2278-f2ad-4043-bd0c-9365b4c95152",
+                            "cn": [
+                                {
+                                    "type": "Ext.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": [
+                                            "artist-info-button"
+                                        ],
+                                        "hidden": false,
+                                        "itemId": "closeArtistInfoButton",
+                                        "style": "-webkit-border-radius: 35px; -moz-border-radius: 35px; border-radius: 35px;",
+                                        "styleHtmlContent": true,
+                                        "ui": "plain",
+                                        "width": null,
+                                        "iconCls": "delete",
+                                        "text": "Close"
+                                    },
+                                    "designerId": "13fc4f62-a870-4dfe-88bb-4b3ed6086fc0"
+                                },
+                                {
+                                    "type": "Ext.Spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "designerId": "7b331ab8-72f0-4f1d-a908-324938e89aa0"
+                                },
+                                {
+                                    "type": "Ext.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": [
+                                            "artist-info-button"
+                                        ],
+                                        "itemId": "saveArtistButton",
+                                        "styleHtmlContent": true,
+                                        "ui": "plain",
+                                        "width": 100,
+                                        "iconCls": "favorites",
+                                        "text": "Save"
+                                    },
+                                    "designerId": "63e3c806-fab3-499c-80e6-cb64207f64ad"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "hidden": false,
+                                "html": "<p>Lorem ipsum descripton of a band that's really cool. <p>Lorem ipsum descripton of a band that's really cool. <p>Lorem ipsum descripton of a band that's really cool. <p>Lorem ipsum descripton of a band that's really cool. </p> ",
+                                "itemId": "artistDescription",
+                                "padding": "5 20 0 20",
+                                "style": "color: #fff;",
+                                "width": null
+                            },
+                            "designerId": "23abe2c9-a704-4eea-a0fd-8ecdb6dc2a38"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bottom": 0,
+                        "docked": "bottom",
+                        "height": 40,
+                        "hidden": true,
+                        "html": "Band Name",
+                        "itemId": "artistName",
+                        "margin": null,
+                        "padding": "3 0 3 10",
+                        "showAnimation": [
+                            "{type: 'slide', direction: 'up'}"
+                        ],
+                        "style": "position: relative; background: rgba(0,0,0,0.7); color: #fff; font-size: 1.3em;",
+                        "width": "100%",
+                        "zIndex": null
+                    },
+                    "configAlternates": {
+                        "showAnimation": "object"
+                    },
+                    "designerId": "5fd5660d-4f0e-4073-9c27-b3b91b252c07"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "height": 80,
+                "html": null,
+                "itemId": "playerContainer",
+                "style": "background: #888;",
+                "layout": "hbox"
+            },
+            "designerId": "0af88b09-b9ca-44c3-b2b4-f3e8a381192a",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "html": null,
+                        "itemId": "playerWaveformContainer"
+                    },
+                    "designerId": "bad1a54e-de12-4077-9249-f7f696fc523d",
+                    "cn": [
+                        {
+                            "type": "Ext.XTemplate",
+                            "reference": {
+                                "name": "tpl",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "implHandler": [
+                                    "<div style=\"-webkit-mask-box-image: url('{waveform_url}');\" class=\"waveform\"></div>",
+                                    "<div class=\"waveform-bg\"></div>",
+                                    "<div class=\"elapsed\"></div> ",
+                                    "<div class=\"loading\"></div>"
+                                ],
+                                "designer|displayName": "tpl"
+                            },
+                            "designerId": "81cc96f4-0eb0-469a-9530-2f4242374bdc"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "centered": false,
+                        "docked": "left",
+                        "height": 70,
+                        "itemId": "playButton",
+                        "margin": 5,
+                        "style": "-webkit-border-radius: 70px; -moz-border-radius: 70px; border-radius: 70px; background: rgba(255,255,255,1);",
+                        "ui": "plain",
+                        "width": 70,
+                        "iconCls": "play",
+                        "text": null
+                    },
+                    "designerId": "efff8bd7-2da5-49e4-8eda-dc892fe112f9"
+                }
+            ]
+        }
+    ]
+}

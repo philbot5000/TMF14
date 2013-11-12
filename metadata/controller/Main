@@ -1,0 +1,62 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Main"
+    },
+    "designerId": "5cf2a8e4-916f-45e4-9e0f-45ea0d3b89fa",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onMainInitialize",
+                "implHandler": [
+                    "var main = component.getDraggable();",
+                    "",
+                    "component.element.addCls('main-inner');",
+                    "component.isOpen = false;",
+                    "",
+                    "main.on('dragstart', function(draggable, event) {",
+                    "    component.element.removeCls('main-inner');",
+                    "});",
+                    "",
+                    "main.on('dragend', function(draggable) {",
+                    "",
+                    "",
+                    "    if(component.isOpen === false && draggable.offset.x > 100) {",
+                    "        draggable.setOffset(250, 0, {",
+                    "            type: 'slide'",
+                    "        });",
+                    "",
+                    "        component.isOpen = true;",
+                    "",
+                    "    } else {",
+                    "",
+                    "        draggable.setOffset(0, 0, {",
+                    "            type: 'slide'",
+                    "        });",
+                    "",
+                    "        component.isOpen = false;",
+                    "",
+                    "    }",
+                    "",
+                    "    component.element.addCls('main-inner');",
+                    "});"
+                ],
+                "name": "initialize",
+                "designer|targetType": "Ext.Container",
+                "designer|controlQuery": "#main"
+            },
+            "designerId": "adf856ff-d950-4699-979c-513d6b31f7e1"
+        }
+    ]
+}

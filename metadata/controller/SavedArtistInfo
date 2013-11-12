@@ -1,0 +1,64 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SavedArtistInfo"
+    },
+    "designerId": "8c96bc2f-9b70-419c-9347-734b59053485",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSavedArtistInfoHide",
+                "implHandler": [
+                    "component.destroy();"
+                ],
+                "name": "hide",
+                "designer|targetType": "Ext.Panel",
+                "designer|controlQuery": "panel#savedArtistFloatPanel"
+            },
+            "designerId": "1f4dd0b0-e02b-423d-b03d-8a86b21a53e8"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onRemoveArtistTap",
+                "implHandler": [
+                    "var store = Ext.getStore('savedArtists'),",
+                    "    panel = Ext.ComponentQuery.query('#savedArtistFloatPanel')[0],",
+                    "    artist = panel.config.artist,",
+                    "    list = Ext.ComponentQuery.query('#savedArtists')[0];",
+                    "",
+                    "",
+                    "var index = store.findExact('track_id', artist.track_id),",
+                    "    record = store.getAt(index);",
+                    "",
+                    "record.set('saved', false);",
+                    "",
+                    "store.sync();",
+                    "store.remove(record);",
+                    "//TMF14.app.refreshLists();",
+                    "panel.hide();"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#removeArtist"
+            },
+            "designerId": "e705bc8a-fb36-46cd-918e-7e26afe3a986"
+        }
+    ]
+}

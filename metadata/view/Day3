@@ -1,0 +1,70 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "orangeList"
+        ],
+        "itemId": "Day3",
+        "designer|userClassName": "Day3",
+        "designer|userAlias": "day3",
+        "scrollable": [
+            "{",
+            "    directionLock: true,",
+            "    direction: 'vertical'",
+            "}"
+        ],
+        "disableSelection": true,
+        "scrollToTopOnRefresh": false,
+        "store": "saturdayArtists",
+        "disclosureProperty": "saved",
+        "grouped": true,
+        "onItemDisclosure": true
+    },
+    "configAlternates": {
+        "scrollable": "object"
+    },
+    "designerId": "4bd159ff-a5c4-4335-8a7e-809acdf47db0",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    "<div><span style=\"font-size: 10px;\">{time}</span> {artist}</div>"
+                ],
+                "designer|displayName": "itemTpl"
+            },
+            "designerId": "7519c4ac-69c5-41f5-9678-c2aca4ec29df"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bottom": 0,
+                "docked": "top",
+                "height": 40,
+                "hidden": true,
+                "html": "<img src=\"img/badge.png\" height=\"20px\" align=\"left\" /> Saturday, March 24",
+                "itemId": "saturdayListIndicator",
+                "padding": 5,
+                "style": "z-index: 9999 !important; position: absolute; color: #fff; background: rgba(0,0,0, 0.6);",
+                "width": "100%",
+                "zIndex": null
+            },
+            "designerId": "09445b05-4cdc-49bb-b5b9-b2c44e6c19df"
+        }
+    ]
+}

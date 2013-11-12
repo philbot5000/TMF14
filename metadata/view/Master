@@ -1,0 +1,216 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Master",
+        "requires": [
+            "Ext.Toolbar"
+        ],
+        "designer|initialView": true,
+        "layout": "hbox"
+    },
+    "designerId": "0c699cd2-e2b6-43ea-976b-906557bf7dfb",
+    "cn": [
+        {
+            "type": "Ext.dataview.List",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "bottom": 0,
+                "cls": [
+                    "orangeList"
+                ],
+                "docked": "left",
+                "html": null,
+                "id": "menu",
+                "itemId": "menu",
+                "left": null,
+                "style": null,
+                "top": 0,
+                "width": 250,
+                "zIndex": 1,
+                "store": "menu",
+                "grouped": true
+            },
+            "designerId": "fa5254cd-96ab-4249-a8ba-9243b6ef62f4",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "top",
+                        "height": 70,
+                        "hidden": true,
+                        "html": "nowPlaying",
+                        "itemId": "nowPlaying"
+                    },
+                    "designerId": "a78a6e9e-456b-43f7-b4cb-ef4bcf1afad1"
+                },
+                {
+                    "type": "Ext.XTemplate",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "implHandler": [
+                            "<tpl if='order == 1'>",
+                            "\t<div> {item} <span style=\"padding: 3px; font-size: 150%;\" class=\"x-badge \">{[this.getNumberOfSavedArtists()]}</span></div>",
+                            "<tpl elseif='order == 6'>",
+                            "    <div>{item}<!--<img src=\"{img}\" width=\"100%\" />--></div>",
+                            "<tpl else>",
+                            "        <div> {item} </div>",
+                            "</tpl>"
+                        ],
+                        "designer|displayName": "itemTpl"
+                    },
+                    "designerId": "19f335dd-4cb0-4f6e-8078-f985ece39737",
+                    "cn": [
+                        {
+                            "type": "templatefunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "getNumberOfSavedArtists",
+                                "implHandler": [
+                                    "return Ext.getStore('savedArtists').getCount();"
+                                ]
+                            },
+                            "designerId": "b74cdf22-7dad-4db8-8a8a-dcc286b4e14b"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "cls": [
+                    "main-background"
+                ],
+                "draggable": [
+                    "{",
+                    "    direction: 'horizontal',",
+                    "    constraint: {",
+                    "        min: {",
+                    "            x: 0,",
+                    "            y: 0",
+                    "        },",
+                    "        max: {",
+                    "            x: 300,",
+                    "            y: 0",
+                    "        }",
+                    "    }",
+                    "}"
+                ],
+                "html": null,
+                "id": "main",
+                "itemId": "main",
+                "style": null,
+                "width": "100%",
+                "zIndex": 1,
+                "layout": "card"
+            },
+            "designerId": "36d1a730-0011-4cfc-b83d-acb2188f9c97",
+            "cn": [
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "border": 0,
+                        "docked": "top",
+                        "itemId": "toolbar",
+                        "style": "background: #D9F0F8;"
+                    },
+                    "designerId": "9db3bd6f-bf56-4943-bbd0-b48a1958562b",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "itemId": "backButton",
+                                "style": "color: #EB6145;",
+                                "ui": "plain",
+                                "iconCls": "back",
+                                "text": ""
+                            },
+                            "designerId": "1a8005b0-00b2-45c0-89c0-c29663da2084"
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": null,
+                                "itemId": "menuButton",
+                                "style": "color: #EB6145;",
+                                "ui": "plain",
+                                "iconCls": "menu",
+                                "text": null
+                            },
+                            "designerId": "84d339b7-6bc7-45a7-a85e-b6b415bf2d36"
+                        },
+                        {
+                            "type": "Ext.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "centered": true,
+                                "html": "<img src=\"img/badge.png\" height=\"47px\" />",
+                                "itemId": "logo"
+                            },
+                            "designerId": "f2404bd1-5dab-4c19-b67c-56e5c145bd77"
+                        }
+                    ]
+                },
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "designerId": "b798567d-575d-43d0-ba12-7b21705bdbad",
+                    "masterInstanceId": "2b8ba94c-86ed-41c7-a7df-ad98a81215eb"
+                }
+            ]
+        }
+    ]
+}

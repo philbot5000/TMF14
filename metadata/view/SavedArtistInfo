@@ -1,0 +1,52 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "centered": true,
+        "height": null,
+        "itemId": "savedArtistFloatPanel",
+        "padding": null,
+        "style": "",
+        "width": 270,
+        "designer|userClassName": "SavedArtistInfo",
+        "designer|userAlias": null,
+        "hideOnMaskTap": true,
+        "modal": true
+    },
+    "designerId": "3609f0af-e67d-472e-b895-0419e6a18fa1",
+    "cn": [
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "itemId": "removeArtist",
+                "ui": "decline",
+                "text": "Remove"
+            },
+            "designerId": "c80c4d62-dc3e-4eef-97fa-08e5008faff9"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "ui": "action",
+                "text": "View"
+            },
+            "designerId": "a6ac2eb0-8afd-49cb-8a5f-afe47c4dca19"
+        }
+    ]
+}

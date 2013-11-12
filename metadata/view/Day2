@@ -1,0 +1,72 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "orangeList"
+        ],
+        "html": null,
+        "itemId": "Day2",
+        "style": null,
+        "designer|userClassName": "Day2",
+        "designer|userAlias": "day2",
+        "scrollable": [
+            "{",
+            "    directionLock: true,",
+            "    direction: 'vertical'",
+            "}"
+        ],
+        "disableSelection": true,
+        "scrollToTopOnRefresh": false,
+        "store": "fridayArtists",
+        "disclosureProperty": "saved",
+        "grouped": true,
+        "onItemDisclosure": true
+    },
+    "configAlternates": {
+        "scrollable": "object"
+    },
+    "designerId": "5feaff74-f90f-4d23-9aeb-99185713a003",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    "<div><span style=\"font-size: 10px;\">{time}</span> {artist}</div>"
+                ],
+                "designer|displayName": "itemTpl"
+            },
+            "designerId": "ba500798-9ba7-4901-ad4c-80ecb2bb8ee1"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bottom": 0,
+                "docked": "top",
+                "height": 40,
+                "hidden": true,
+                "html": "<img src=\"img/badge.png\" height=\"20px\" align=\"left\" />  Friday, March 22",
+                "itemId": "fridayListIndicator",
+                "padding": 5,
+                "style": "z-index: 9999 !important; position: absolute; color: #fff; background: rgba(0,0,0, 0.6);",
+                "width": "100%",
+                "zIndex": null
+            },
+            "designerId": "b32891d6-2db9-40de-becd-f53c8cc0e792"
+        }
+    ]
+}

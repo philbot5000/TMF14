@@ -1,0 +1,44 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "orangeList"
+        ],
+        "itemId": "savedArtists",
+        "designer|userClassName": "SavedArtists",
+        "designer|userAlias": "savedartists",
+        "requires": [
+            "TMF14.view.SavedArtistInfo"
+        ],
+        "scrollable": [
+            "{",
+            "    directionLock: true,",
+            "    direction: 'vertical'",
+            "}"
+        ],
+        "store": "savedArtists"
+    },
+    "designerId": "2b8ba94c-86ed-41c7-a7df-ad98a81215eb",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    "<div><span style=\"font-size: 10px;\">{time}</span> {artist}</div>"
+                ],
+                "designer|displayName": "itemTpl"
+            },
+            "designerId": "21854da3-f3c0-4dc7-8e11-7b84b933373b"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "data": [
+            "[",
+            "    {",
+            "        item: 'Saved Artists', ",
+            "     \torder: 1,",
+            "        img: '',",
+            "        href: 'savedArtists',",
+            "        type: 'Schedule'",
+            "    },",
+            "    {",
+            "        item: 'Thursday, March 20', ",
+            "        order: 2,",
+            "        img: '',",
+            "        href: 'thursday',",
+            "        type: 'Schedule'",
+            "    },",
+            "    {",
+            "        item: 'Friday, March 21', ",
+            "        order: 3,",
+            "        img: '',",
+            "        href: 'friday',",
+            "        type: 'Schedule'",
+            "    },",
+            "    {",
+            "        item: 'Saturday, March 22', ",
+            "        order: 4,",
+            "        img: '',",
+            "        href: 'saturday',",
+            "        type: 'Schedule'",
+            "    },",
+            "    {",
+            "        item: 'Sunday, March 23', ",
+            "        order: 5,",
+            "        img: '',",
+            "        href: 'sunday',",
+            "        type: 'Schedule'",
+            "    },",
+            "    {",
+            "        item: 'Instagram', ",
+            "        order: 6,",
+            "        img: 'http://distilleryimage11.s3.amazonaws.com/8bcb3200974b11e28f3922000aaa2151_7.jpg',",
+            "        href: 'instagram',",
+            "        type: 'Social'",
+            "    },",
+            "    {",
+            "        item: 'Twitter', ",
+            "        order: 6,",
+            "        img: '',",
+            "        href: 'twitter',",
+            "        type: 'Social'",
+            "    }",
+            "",
+            "",
+            "]"
+        ],
+        "model": "Menu",
+        "storeId": "menu",
+        "designer|userClassName": "Menu"
+    },
+    "designerId": "45bcfdc9-7f5d-445d-bda6-55e47c2814ea",
+    "cn": [
+        {
+            "type": "Ext.util.Grouper",
+            "reference": {
+                "name": "grouper",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "property": "type"
+            },
+            "designerId": "8d4fc254-d14c-4220-8888-8dc16871230d"
+        }
+    ]
+}

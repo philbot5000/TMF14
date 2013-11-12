@@ -1,0 +1,62 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "groupField": null,
+        "model": "Artist",
+        "storeId": "saturdayArtists",
+        "designer|userClassName": "Saturday"
+    },
+    "designerId": "9d79977d-bfd9-45b6-a75b-47cabd58ebd6",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "21e39bed-c958-4ea3-abc8-31a9f92ddb96",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "c1adb97e-3b37-4152-863b-38c440032c6e"
+                }
+            ]
+        },
+        {
+            "type": "Ext.util.Grouper",
+            "reference": {
+                "name": "grouper",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "property": "venue",
+                "sortProperty": null
+            },
+            "designerId": "c72c9774-abfe-49e8-abed-5d2041b4eacc"
+        },
+        {
+            "type": "Ext.util.Sorter",
+            "reference": {
+                "name": "sorters",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "property": "jDate"
+            },
+            "designerId": "e97e6bc6-2881-420b-9424-0a873f28f006"
+        }
+    ]
+}

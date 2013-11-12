@@ -1,0 +1,13 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "js1",
+        "url": "http://connect.soundcloud.com/sdk.js"
+    },
+    "designerId": "9afc63c1-46ae-4d47-9033-156cf69f5731"
+}

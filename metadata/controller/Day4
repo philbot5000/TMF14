@@ -1,0 +1,113 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Day4"
+    },
+    "designerId": "5f45b250-8999-47e2-bcf1-1a4fc9b39308",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDay4Activate",
+                "implHandler": [
+                    "Ext.ComponentQuery.query('#sundayListIndicator')[0].show({type: 'fade'});"
+                ],
+                "name": "activate",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#Day4"
+            },
+            "designerId": "f93b796f-10f6-4423-9484-b07c627bdb3e"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDay4Initialize",
+                "implHandler": [
+                    "TMF14.app.setDayIndicator(component, '#sundayListIndicator');"
+                ],
+                "name": "initialize",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#Day4"
+            },
+            "designerId": "a0541fdd-ddf6-46a7-82e5-cd189a16574a"
+        },
+        {
+            "type": "Ext.app.Route",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "Day4",
+                "fn": "showDay4",
+                "implHandler": [
+                    "var main = Ext.getCmp('main'),",
+                    "    day = Ext.create('TMF14.view.Day4');",
+                    "",
+                    "main.setActiveItem(day);"
+                ]
+            },
+            "designerId": "73574a20-6fbc-4305-b017-8f34838df75d"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDay4Hide",
+                "implHandler": [
+                    "setTimeout(function() {",
+                    "    component.destroy();",
+                    "}, 500);"
+                ],
+                "name": "hide",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#Day4"
+            },
+            "designerId": "09b91eab-ab8b-4336-9bbb-c5070cf23f9c"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDay4ItemTap",
+                "implHandler": [
+                    "var main = Ext.getCmp('main'),",
+                    "    backButton = Ext.ComponentQuery.query('#backButton')[0];",
+                    "",
+                    "backButton.dayNumber = 'Day4';",
+                    "",
+                    "main.artistInfo = record.data;",
+                    "this.redirectTo('artistDetail');"
+                ],
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#Day4"
+            },
+            "designerId": "dd985b04-17c5-40b3-aea2-e1f639a4c46e"
+        }
+    ]
+}

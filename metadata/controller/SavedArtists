@@ -1,0 +1,54 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SavedArtists"
+    },
+    "designerId": "82a2450a-aa19-4992-b3fa-1a6d44810cc4",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSavedArtistsItemTap",
+                "implHandler": [
+                    "var savedArtistFloatPanel = Ext.create('TMF14.view.SavedArtistInfo',{artist: record.data});",
+                    "savedArtistFloatPanel.setHtml(record.data.day+'<br />'+record.data.venue+",
+                    "'<br />'+record.data.time);",
+                    "var overlay = dataview.add(savedArtistFloatPanel).showBy(target);"
+                ],
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#savedArtists"
+            },
+            "designerId": "48c0c30f-6cc5-46c6-bca8-7667c90753b3"
+        },
+        {
+            "type": "Ext.app.Route",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "savedArtists",
+                "fn": "showSavedArtists",
+                "implHandler": [
+                    "var main = Ext.getCmp('main'),",
+                    "    day = Ext.create('TMF14.view.SavedArtists');",
+                    "",
+                    "main.setActiveItem(day);"
+                ]
+            },
+            "designerId": "0497f6f5-8088-4477-b5fa-b14ffd7a7655"
+        }
+    ]
+}
