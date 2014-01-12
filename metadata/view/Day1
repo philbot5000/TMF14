@@ -10,7 +10,7 @@
             "orangeList"
         ],
         "contentEl": null,
-        "itemId": "day1",
+        "itemId": "Day1",
         "designer|userClassName": "Day1",
         "designer|userAlias": null,
         "autoDestroy": null,
@@ -20,8 +20,7 @@
             "    direction: 'vertical'",
             "}"
         ],
-        "disableSelection": true,
-        "scrollToTopOnRefresh": false,
+        "disableSelection": false,
         "store": "thursdayArtists",
         "disclosureProperty": "saved",
         "grouped": true,

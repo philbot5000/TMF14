@@ -1,0 +1,70 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "orangeList"
+        ],
+        "itemId": "artists2013",
+        "designer|userClassName": "Artists2013",
+        "scrollable": [
+            "{",
+            "    directionLock: true,",
+            "    direction: 'vertical'",
+            "}"
+        ],
+        "disableSelection": true,
+        "scrollToTopOnRefresh": false,
+        "store": "artists2013",
+        "disclosureProperty": "saved",
+        "grouped": true,
+        "infinite": true,
+        "onItemDisclosure": true
+    },
+    "configAlternates": {
+        "scrollable": "object"
+    },
+    "designerId": "4629c551-bc30-4b8b-a975-be17b8632fb6",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    "<div>{artist}</div>"
+                ],
+                "designer|displayName": "itemTpl"
+            },
+            "designerId": "e542ad31-0fc1-4ae0-a58b-ff6f7f448947"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bottom": 0,
+                "docked": "top",
+                "height": 40,
+                "hidden": true,
+                "html": "<img src=\"img/badge.png\" height=\"20px\" align=\"left\" /> Sunday, March 24",
+                "itemId": "sundayListIndicator",
+                "padding": 5,
+                "style": "z-index: 9999 !important; position: absolute; color: #fff; background: rgba(0,0,0, 0.6);",
+                "width": "100%",
+                "zIndex": null
+            },
+            "designerId": "60e3cd8c-48bf-45c0-a472-b14277788b3c"
+        }
+    ]
+}

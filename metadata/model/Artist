@@ -94,6 +94,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "mapping": null,
                 "name": "track_id",
                 "type": null
             },
@@ -134,7 +135,36 @@
             "userConfig": {
                 "name": "artwork_url"
             },
-            "designerId": "0838ba7c-72c4-4b7c-b381-fcb74c2cfa1f"
+            "designerId": "0838ba7c-72c4-4b7c-b381-fcb74c2cfa1f",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "convert",
+                        "designer|params": [
+                            "v",
+                            "rec"
+                        ],
+                        "implHandler": [
+                            "var str = v;",
+                            "",
+                            "if (str === null) {",
+                            "    return 'img/logo-old.png';",
+                            "} else {",
+                            "    // string replacement to get larger version of image",
+                            "    var n = str.replace('large','t500x500');",
+                            "    return n;",
+                            "}"
+                        ]
+                    },
+                    "designerId": "2c0e92e4-7b55-4de1-ae2d-adb62844dcec"
+                }
+            ]
         },
         {
             "type": "Ext.data.Field",

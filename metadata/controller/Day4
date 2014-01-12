@@ -20,6 +20,16 @@
             "userConfig": {
                 "fn": "onDay4Activate",
                 "implHandler": [
+                    "/*",
+                    "component.add(",
+                    "{",
+                    "xtype: 'container',",
+                    "scrollDock: 'top',",
+                    "html: '<img src=\"images/list4.jpg\" width=\"100%\" />',",
+                    "width: '100%'",
+                    "}",
+                    ");",
+                    "*/",
                     "Ext.ComponentQuery.query('#sundayListIndicator')[0].show({type: 'fade'});"
                 ],
                 "name": "activate",
@@ -58,7 +68,7 @@
                 "fn": "showDay4",
                 "implHandler": [
                     "var main = Ext.getCmp('main'),",
-                    "    day = Ext.create('TMF14.view.Day4');",
+                    "    day = Ext.ComponentQuery.query('#Day4')[0] || Ext.create('TMF14.view.Day4');",
                     "",
                     "main.setActiveItem(day);"
                 ]
@@ -75,8 +85,10 @@
             "userConfig": {
                 "fn": "onDay4Hide",
                 "implHandler": [
+                    "var main = Ext.getCmp('main');",
+                    "",
                     "setTimeout(function() {",
-                    "    component.destroy();",
+                    "    main.remove(component, false);",
                     "}, 500);"
                 ],
                 "name": "hide",

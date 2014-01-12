@@ -86,16 +86,13 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "cls": [
-                                            "artist-info-button"
-                                        ],
                                         "hidden": false,
                                         "itemId": "closeArtistInfoButton",
-                                        "style": "-webkit-border-radius: 35px; -moz-border-radius: 35px; border-radius: 35px;",
+                                        "style": null,
                                         "styleHtmlContent": true,
-                                        "ui": "plain",
+                                        "ui": "decline",
                                         "width": null,
-                                        "iconCls": "delete",
+                                        "iconCls": "close",
                                         "text": "Close"
                                     },
                                     "designerId": "13fc4f62-a870-4dfe-88bb-4b3ed6086fc0"
@@ -108,26 +105,6 @@
                                     },
                                     "codeClass": null,
                                     "designerId": "7b331ab8-72f0-4f1d-a908-324938e89aa0"
-                                },
-                                {
-                                    "type": "Ext.Button",
-                                    "reference": {
-                                        "name": "items",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "cls": [
-                                            "artist-info-button"
-                                        ],
-                                        "itemId": "saveArtistButton",
-                                        "styleHtmlContent": true,
-                                        "ui": "plain",
-                                        "width": 100,
-                                        "iconCls": "favorites",
-                                        "text": "Save"
-                                    },
-                                    "designerId": "63e3c806-fab3-499c-80e6-cb64207f64ad"
                                 }
                             ]
                         },
@@ -161,8 +138,8 @@
                     "userConfig": {
                         "bottom": 0,
                         "docked": "bottom",
-                        "height": 40,
-                        "hidden": true,
+                        "height": null,
+                        "hidden": false,
                         "html": "Band Name",
                         "itemId": "artistName",
                         "margin": null,
@@ -178,6 +155,54 @@
                         "showAnimation": "object"
                     },
                     "designerId": "5fd5660d-4f0e-4073-9c27-b3b91b252c07"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bottom": null,
+                        "cls": [
+                            "artistDetailButton"
+                        ],
+                        "height": 50,
+                        "hidden": true,
+                        "margin": 10,
+                        "right": 0,
+                        "style": null,
+                        "ui": "plain",
+                        "width": 50,
+                        "iconAlign": "center",
+                        "iconCls": "star",
+                        "text": ""
+                    },
+                    "designerId": "1e886500-7b8d-4cec-b3f4-4e583871591a"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "artistDetailButton"
+                        ],
+                        "height": 50,
+                        "hidden": true,
+                        "margin": 10,
+                        "style": null,
+                        "ui": "plain",
+                        "width": 50,
+                        "iconAlign": "center",
+                        "iconCls": "more",
+                        "text": ""
+                    },
+                    "designerId": "edfe98a7-b1e2-49c1-86f5-2c20871637e8"
                 }
             ]
         },
@@ -193,7 +218,7 @@
                 "height": 80,
                 "html": null,
                 "itemId": "playerContainer",
-                "style": "background: #888;",
+                "style": "background: #D9F0F8;",
                 "layout": "hbox"
             },
             "designerId": "0af88b09-b9ca-44c3-b2b4-f3e8a381192a",
@@ -240,12 +265,13 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "border": 1,
                         "centered": false,
                         "docked": "left",
                         "height": 70,
                         "itemId": "playButton",
-                        "margin": 5,
-                        "style": "-webkit-border-radius: 70px; -moz-border-radius: 70px; border-radius: 70px; background: rgba(255,255,255,1);",
+                        "margin": "5 0 5 5",
+                        "style": "color: #fff; -webkit-border-radius: 70px; -moz-border-radius: 70px; border-radius: 70px; background: #eb6145;",
                         "ui": "plain",
                         "width": 70,
                         "iconCls": "play",

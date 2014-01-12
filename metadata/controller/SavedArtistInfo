@@ -43,15 +43,25 @@
                     "    artist = panel.config.artist,",
                     "    list = Ext.ComponentQuery.query('#savedArtists')[0];",
                     "",
+                    "// Remove artist from savedArtists store",
+                    "var savedIndex = store.findExact('track_id', artist.track_id),",
+                    "    savedRecord = store.getAt(savedIndex);",
                     "",
-                    "var index = store.findExact('track_id', artist.track_id),",
-                    "    record = store.getAt(index);",
+                    "savedRecord.set('saved', false);",
+                    "",
+                    "store.sync();",
+                    "store.remove(savedRecord);",
+                    "",
+                    "// Update the orginal store record to saved false",
+                    "",
+                    "var dayStore = this.getStore(artist.DayNumber),",
+                    "    index = dayStore.findExact('track_id', artist.track_id),",
+                    "    record = dayStore.getAt(index);",
                     "",
                     "record.set('saved', false);",
                     "",
-                    "store.sync();",
-                    "store.remove(record);",
-                    "//TMF14.app.refreshLists();",
+                    "//console.log(artist);",
+                    "",
                     "panel.hide();"
                 ],
                 "name": "tap",
@@ -59,6 +69,43 @@
                 "designer|controlQuery": "button#removeArtist"
             },
             "designerId": "e705bc8a-fb36-46cd-918e-7e26afe3a986"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getStore",
+                "designer|params": [
+                    "record"
+                ],
+                "implHandler": [
+                    "console.log(record);",
+                    "var store;",
+                    "",
+                    "",
+                    "switch(record) {",
+                    "    case 'Day1':",
+                    "        store = Ext.getStore('thursdayArtists');",
+                    "        break;",
+                    "    case 'Day2':",
+                    "    \tstore = Ext.getStore('fridayArtists');",
+                    "        break;",
+                    "    case 'Day3':",
+                    "        store = Ext.getStore('saturdayArtists');",
+                    "        break;",
+                    "    case 'Day4':",
+                    "    \tstore = Ext.getStore('fridayArtists');",
+                    "        break;",
+                    "}",
+                    "",
+                    "return store;"
+                ]
+            },
+            "designerId": "6d9d60c7-d147-4f2e-b1c4-a52a86bf1650"
         }
     ]
 }

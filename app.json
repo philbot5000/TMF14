@@ -50,11 +50,11 @@
         },
         {
             "path": "src/soundmanager2-nodebug-jsmin.js"
-        }/*,
+        },
         {
             "path": "http://connect.soundcloud.com/sdk.js",
             "remote": true
-        }*/
+        }
     ],
 
     /**

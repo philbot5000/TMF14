@@ -21,6 +21,7 @@
             "    direction: 'vertical'",
             "}"
         ],
+        "emptyText": "You haven't saved any artists yet.<br /><img src=\"images/list1.jpg\" width=\"100%\" />",
         "store": "savedArtists"
     },
     "designerId": "2b8ba94c-86ed-41c7-a7df-ad98a81215eb",

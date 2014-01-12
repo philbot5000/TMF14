@@ -20,8 +20,7 @@
             "    direction: 'vertical'",
             "}"
         ],
-        "disableSelection": true,
-        "scrollToTopOnRefresh": false,
+        "disableSelection": false,
         "store": "fridayArtists",
         "disclosureProperty": "saved",
         "grouped": true,

@@ -1,12 +1,22 @@
 // throw out default pictos font
-$include-pictos-font: false;
-$include-default-icons: false;
+$include-pictos-font: true;
+$include-default-icons: true;
+$base-gradient: flat;
+$active-color: #eb6145;
+$confirm-color: #424e5a;
+$alert-color: #424e5a;
+$list-active-color: #788b78;
+$basic-slider: true;
+
+
+
+
 
 // The following two lines import the default Sencha Touch theme. If you are building
 // a new theme, remove them and the add your own CSS on top of the base CSS (which
 // is already included in your app.json file).
 @import 'sencha-touch/default';
-//@import 'sencha-touch/default/all';
+@import 'sencha-touch/default/all';
 
 // exclude components that app is not using
 @import 'sencha-touch/default';
@@ -49,10 +59,12 @@ $include-default-icons: false;
  )
 );
 
-@include icon("menu"  , "\f0c9", "Pictos"); // for every icon you have added.
-@include icon("back"  , "\f053", "Pictos"); // for every icon you have added.
-@include icon("play"  , "\f04b", "Pictos"); // for every icon you have added.
-
+@include icon("menu"  , "\e601", "Pictos"); // for every icon you have added.
+@include icon("back"  , "\e605", "Pictos"); // for every icon you have added.
+@include icon("play"  , "\e603", "Pictos"); // for every icon you have added.
+@include icon("pause"  , "\e604", "Pictos"); // for every icon you have added.
+@include icon("arrow_right"  , "\e606", "Pictos"); // for every icon you have added.
+@include icon("close"  , "\e602", "Pictos"); // for every icon you have added.
 
 
 // Custom code goes here..

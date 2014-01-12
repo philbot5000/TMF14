@@ -51,12 +51,42 @@
                     "codeClass": null,
                     "userConfig": {
                         "docked": "top",
-                        "height": 70,
+                        "height": 80,
                         "hidden": true,
-                        "html": "nowPlaying",
-                        "itemId": "nowPlaying"
+                        "itemId": "nowPlaying",
+                        "layout": "hbox"
                     },
-                    "designerId": "a78a6e9e-456b-43f7-b4cb-ef4bcf1afad1"
+                    "designerId": "ab8396b2-f9b8-4fdd-b54e-bc82ce6becca",
+                    "cn": [
+                        {
+                            "type": "Ext.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "itemId": "artistNowPlaying",
+                                "padding": 10
+                            },
+                            "designerId": "1cbdf34c-6e2f-49ac-83b9-998e4b86adad"
+                        },
+                        {
+                            "type": "Ext.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<img src=\"images/forward.png\" width=\"100%\" style=\"margin-top:  25px;\" />",
+                                "style": "",
+                                "width": 30
+                            },
+                            "designerId": "fd010454-868f-46c0-9b09-23359f6e2ed6"
+                        }
+                    ]
                 },
                 {
                     "type": "Ext.XTemplate",
@@ -193,10 +223,37 @@
                             "codeClass": null,
                             "userConfig": {
                                 "centered": true,
-                                "html": "<img src=\"img/badge.png\" height=\"47px\" />",
+                                "html": "<img src=\"images/logo_sticks_blue_small.png\" height=\"45px\" />",
                                 "itemId": "logo"
                             },
                             "designerId": "f2404bd1-5dab-4c19-b67c-56e5c145bd77"
+                        },
+                        {
+                            "type": "Ext.Spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "5a048989-1f38-45b7-a6a6-42af4cf6cd75"
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "itemId": "saveArtistButton",
+                                "showAnimation": null,
+                                "style": "color: #788b78;",
+                                "ui": "plain",
+                                "iconCls": "arrow_right",
+                                "text": "Save"
+                            },
+                            "designerId": "5557b984-4e11-4a42-a716-83ba1492d595"
                         }
                     ]
                 },
@@ -207,8 +264,8 @@
                         "type": "array"
                     },
                     "codeClass": null,
-                    "designerId": "b798567d-575d-43d0-ba12-7b21705bdbad",
-                    "masterInstanceId": "2b8ba94c-86ed-41c7-a7df-ad98a81215eb"
+                    "designerId": "0760861e-dcc2-4b5c-a8e1-4bf6ba94d415",
+                    "masterInstanceId": "5e9d8f45-d517-4a28-9f26-5c649f12e268"
                 }
             ]
         }

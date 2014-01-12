@@ -18,8 +18,7 @@
             "    direction: 'vertical'",
             "}"
         ],
-        "disableSelection": true,
-        "scrollToTopOnRefresh": false,
+        "disableSelection": false,
         "store": "saturdayArtists",
         "disclosureProperty": "saved",
         "grouped": true,

@@ -20,11 +20,35 @@
             "userConfig": {
                 "fn": "onDay1Initialize",
                 "implHandler": [
-                    "TMF14.app.setDayIndicator(component, '#thursdayListIndicator');"
+                    "",
+                    "component.add(",
+                    "    {",
+                    "        xtype: 'container',",
+                    "        scrollDock: 'top',",
+                    "        itemId: 'listImage',",
+                    "        html: '<img src=\"images/list1.jpg\" width=\"100%\" />',",
+                    "        width: '100%'",
+                    "    }",
+                    ");",
+                    "",
+                    "TMF14.app.setDayIndicator(component, '#thursdayListIndicator');",
+                    "",
+                    "var scroller = component.getScrollable().getScroller(),",
+                    "    mainImage = component.query('#listImage')[0];",
+                    "",
+                    "scroller.on('scroll', function(scroll) {",
+                    "    if(scroll.position.y > 0) {",
+                    "        mainImage.setStyle('-webkit-transform: translate3d(0px, '+ scroll.position.y / 3 +'px, 0px);');",
+                    "    } else {",
+                    "        mainImage.setStyle('-webkit-transform: perspective(1200) translate3d(0px, '+ scroll.position.y / 3 +'px, '+Math.abs(scroll.position.y * 5)+'px);');",
+                    "        //console.log(Math.abs(scroll.position.y));",
+                    "    }",
+                    "}",
+                    ");"
                 ],
                 "name": "initialize",
                 "designer|targetType": "Ext.dataview.List",
-                "designer|controlQuery": "list#day1"
+                "designer|controlQuery": "list#Day1"
             },
             "designerId": "88a1d120-5830-4e87-96c2-65f2d2250244"
         },
@@ -44,7 +68,7 @@
                 ],
                 "name": "activate",
                 "designer|targetType": "Ext.dataview.List",
-                "designer|controlQuery": "list#day1"
+                "designer|controlQuery": "list#Day1"
             },
             "designerId": "e56ac93d-5569-4294-9f05-e365762864be"
         },
@@ -60,7 +84,7 @@
                 "fn": "showDay1",
                 "implHandler": [
                     "var main = Ext.getCmp('main'),",
-                    "    day = Ext.create('TMF14.view.Day1');",
+                    "    day = Ext.ComponentQuery.query('#Day1')[0] || Ext.create('TMF14.view.Day1');",
                     "",
                     "main.setActiveItem(day);"
                 ]
@@ -87,7 +111,7 @@
                 ],
                 "name": "itemtap",
                 "designer|targetType": "Ext.dataview.List",
-                "designer|controlQuery": "list#day1"
+                "designer|controlQuery": "list#Day1"
             },
             "designerId": "803ae588-cc69-49f6-bfc7-e3bc02ae0411"
         },
@@ -101,13 +125,15 @@
             "userConfig": {
                 "fn": "onDay1Hide",
                 "implHandler": [
+                    "var main = Ext.getCmp('main');",
+                    "",
                     "setTimeout(function() {",
-                    "    component.destroy();",
+                    "    main.remove(component, false);",
                     "}, 500);"
                 ],
                 "name": "hide",
                 "designer|targetType": "Ext.dataview.List",
-                "designer|controlQuery": "list#day1"
+                "designer|controlQuery": "list#Day1"
             },
             "designerId": "4301e807-c33a-4d8a-bbcd-764990fa15b0"
         }

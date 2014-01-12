@@ -18,8 +18,8 @@
             "    direction: 'vertical'",
             "}"
         ],
-        "disableSelection": true,
-        "scrollToTopOnRefresh": false,
+        "disableSelection": null,
+        "scrollToTopOnRefresh": null,
         "store": "sundayArtists",
         "disclosureProperty": "saved",
         "grouped": true,

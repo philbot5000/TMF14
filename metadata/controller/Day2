@@ -20,6 +20,16 @@
             "userConfig": {
                 "fn": "onDay2Initialize",
                 "implHandler": [
+                    "/*",
+                    "component.add(",
+                    "    {",
+                    "        xtype: 'container',",
+                    "        scrollDock: 'top',",
+                    "        html: '<img src=\"images/list2.jpg\" width=\"100%\" />',",
+                    "        width: '100%'",
+                    "    }",
+                    ");",
+                    "*/",
                     "TMF14.app.setDayIndicator(component, '#fridayListIndicator');"
                 ],
                 "name": "initialize",
@@ -58,7 +68,7 @@
                 "fn": "showDay2",
                 "implHandler": [
                     "var main = Ext.getCmp('main'),",
-                    "    day = Ext.create('TMF14.view.Day2');",
+                    "    day = Ext.ComponentQuery.query('#Day2')[0] || Ext.create('TMF14.view.Day2');",
                     "",
                     "main.setActiveItem(day);"
                 ]
@@ -75,8 +85,10 @@
             "userConfig": {
                 "fn": "onDay2Hide",
                 "implHandler": [
+                    "var main = Ext.getCmp('main');",
+                    "",
                     "setTimeout(function() {",
-                    "    component.destroy();",
+                    "    main.remove(component, false);",
                     "}, 500);"
                 ],
                 "name": "hide",
