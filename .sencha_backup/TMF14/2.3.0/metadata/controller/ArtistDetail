@@ -1,0 +1,412 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ArtistDetail"
+    },
+    "designerId": "f936a070-e0bd-45b2-8964-4337eb2cada6",
+    "cn": [
+        {
+            "type": "Ext.app.Route",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "artistDetail",
+                "fn": "showArtistDetail",
+                "implHandler": [
+                    "var amount = Ext.ComponentQuery.query('#artistInfo'),",
+                    "    artistDetail = Ext.ComponentQuery.query('#artistDetail')[0] || Ext.create('TMF14.view.ArtistDetail'),",
+                    "    main = Ext.getCmp('main');",
+                    "",
+                    "",
+                    "TMF14.app.setArtistInfo(main.artistInfo);",
+                    "",
+                    "if(main.getActiveItem().getItemId() !== 'artistDetail') {",
+                    "    main.setActiveItem(artistDetail);",
+                    "}"
+                ]
+            },
+            "designerId": "0f48fcb0-6d05-4642-8b22-85d4080fcbb3"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onArtistMainInitialize",
+                "implHandler": [
+                    "component.element.on('tap', this.addArtistMainTapListener(), this, {single: true});"
+                ],
+                "name": "initialize",
+                "designer|targetType": "Ext.Container",
+                "designer|controlQuery": "container#artistMain"
+            },
+            "configAlternates": {
+                "artistPlaying": "object"
+            },
+            "designerId": "76b4d257-678d-4bc2-be50-64275f60f485"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onArtistDetailActivate",
+                "implHandler": [
+                    "setTimeout(function() {",
+                    "    Ext.ComponentQuery.query('#artistName')[0].show();",
+                    "}, 500);"
+                ],
+                "name": "activate",
+                "designer|targetType": "Ext.Container",
+                "designer|controlQuery": "container#artistDetail"
+            },
+            "designerId": "b5f55ec0-dd63-4eee-8922-0f71b32a151c"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "playArtist",
+                "designer|params": [
+                    "artist"
+                ],
+                "implHandler": [
+                    "var main = Ext.getCmp('main'),",
+                    "    button = Ext.ComponentQuery.query('#playButton')[0],",
+                    "    me = this;",
+                    "",
+                    "main.artistPlaying = artist;",
+                    "SC.initialize({client_id: 'df942240e3e63f8e23596df0893eab2a'});",
+                    "",
+                    "var setActive = Ext.DomQuery.select('.elapsed')[0];",
+                    "setActive.className = setActive.className + ' playing';",
+                    "",
+                    "SC.stream(\"/tracks/\"+artist.track_id, function(sound){",
+                    "    //soundManager.html5Only = true;",
+                    "    main.sound = sound;",
+                    "",
+                    "",
+                    "    var nowPlaying =  Ext.ComponentQuery.query('#nowPlaying')[0];",
+                    "",
+                    "    nowPlaying.show();",
+                    "    nowPlaying.artist = artist;",
+                    "    Ext.ComponentQuery.query('#artistNowPlaying')[0].setHtml('<img src=\"'+artist.artwork_url+'\" style=\"float: left; height: 60px; margin-right: 5px;\" /><span style=\"font-size: 0.8em;\">Playing:</span><br/>'+artist.artist);",
+                    "    //console.log(sound);",
+                    "    sound.play({",
+                    "        //multiShotEvents: false,",
+                    "        whileloading: function() {",
+                    "",
+                    "",
+                    "            var percentLoaded = this.bytesLoaded / this.bytesTotal * 100;",
+                    "",
+                    "            var loading = Ext.DomQuery.select('.loading')[0];",
+                    "",
+                    "            if(typeof loading !== 'undefined') {",
+                    "                loading.style.width = percentLoaded+'%';",
+                    "            }",
+                    "",
+                    "        },",
+                    "        whileplaying: function() {",
+                    "",
+                    "            main.sound.percentElapsed = Math.floor(sound.position / sound.duration * 100);",
+                    "            var elapsed = Ext.DomQuery.select('.playing')[0];",
+                    "",
+                    "            if(typeof elapsed !== 'undefined') {",
+                    "                elapsed.style.width = main.sound.percentElapsed+'%';",
+                    "            }",
+                    "",
+                    "            button.setIconCls('pause');",
+                    "            button.setHtml('');",
+                    "",
+                    "        },",
+                    "        onfinish: function() {",
+                    "            //button.setHtml('<img src=\"img/play3.png\" height=\"80px\" />');",
+                    "            //var nextTrackInfo = Ext.ComponentQuery.query('#playButton')[button.config.order + 1];",
+                    "            console.log(me.getNextTrack(artist));",
+                    "            Ext.ComponentQuery.query('#artistNowPlaying')[0].setHtml('<img src=\"'+artist.artwork_url+'\" style=\"float: left; height: 60px; margin-right: 5px;\" /><span style=\"font-weight: 300; font-size: 0.8em;\">Finished:</span><br/>'+artist.artist);",
+                    "",
+                    "",
+                    "",
+                    "        }",
+                    "    });",
+                    "",
+                    "});",
+                    ""
+                ]
+            },
+            "designerId": "3886e3d6-abe6-438d-9f99-c4223b3803ab"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getNextTrack",
+                "designer|params": [
+                    "artist"
+                ],
+                "implHandler": [
+                    "var store = '';",
+                    "",
+                    "if(artist.DayNumber === \"Day1\") {",
+                    "    store = Ext.getStore('thursdayArtists');",
+                    "",
+                    "} else if (artist.DayNumber === \"Day2\") {",
+                    "",
+                    "    store = Ext.getStore('fridayArtists');",
+                    "",
+                    "} else if (artist.DayNumber === \"Day3\") {",
+                    "",
+                    "    store = Ext.getStore('saturdayArtists');",
+                    "",
+                    "} else if (artist.DayNumber === \"Day4\") {",
+                    "",
+                    "    store = Ext.getStore('sundayArtists');",
+                    "",
+                    "}",
+                    "",
+                    "var index = store.findExact('track_id', artist.track_id),",
+                    "    nextArtist = store.getAt(index +1);",
+                    "return nextArtist.data;"
+                ]
+            },
+            "designerId": "4e8659bd-dd04-487f-8fd2-e637fd76971f"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "addArtistMainTapListener",
+                "implHandler": [
+                    "",
+                    "var artistMain = Ext.ComponentQuery.query('#artistMain')[0];",
+                    "",
+                    "setTimeout(function(){",
+                    "    artistMain.element.on('tap', function() {",
+                    "        var artistInfoContainer = Ext.ComponentQuery.query('#artistInfoContainer')[0];",
+                    "        artistInfoContainer.show();",
+                    "    }, this, {single: true});",
+                    "},500);"
+                ]
+            },
+            "designerId": "d004e388-28b2-4c6f-b9b3-156fe397a55f"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSaveArtistButtonTap",
+                "implHandler": [
+                    "var store = Ext.getStore('savedArtists'),",
+                    "    artist = button.artistToSave,",
+                    "    recStore,",
+                    "    index,",
+                    "    record;",
+                    "",
+                    "console.log(artist);",
+                    "",
+                    "switch(artist.DayNumber) {",
+                    "    case \"Day1\":",
+                    "    recStore = Ext.getStore('thursdayArtists');",
+                    "    break;",
+                    "    case \"Day2\":",
+                    "    recStore = Ext.getStore('fridayArtists');",
+                    "    break;",
+                    "    case \"Day3\":",
+                    "    recStore = Ext.getStore('saturdayArtists');",
+                    "    break;",
+                    "    case \"Day4\":",
+                    "    recStore = Ext.getStore('sundayArtists');",
+                    "    break;",
+                    "    default: console.log('default');",
+                    "}",
+                    "",
+                    "if(button.getText() === 'Save') {",
+                    "",
+                    "    index = recStore.findExact('track_id', artist.track_id);",
+                    "    record = recStore.getAt(index);",
+                    "    record.set('saved', true);",
+                    "    store.add(record);",
+                    "    store.sync();",
+                    "    //button.setUi('action');",
+                    "    button.setStyle('color: #eb6145;');",
+                    "    button.setText('Saved');",
+                    "",
+                    "} else {",
+                    "",
+                    "    //button.setUi('confirm');",
+                    "    button.setText('Save');",
+                    "    button.setStyle('color: #788b78;');",
+                    "    // Delete the artist from savedArtists and refresh day list...",
+                    "",
+                    "    index = recStore.findExact('track_id', artist.track_id);",
+                    "    record = recStore.getAt(index);",
+                    "",
+                    "",
+                    "    var savedIndex = store.findExact('track_id', artist.track_id),",
+                    "        savedRecord = store.getAt(savedIndex);",
+                    "",
+                    "    console.log(savedRecord);",
+                    "",
+                    "    record.set('saved', false);",
+                    "    //recStore.refresh();",
+                    "    store.remove(savedRecord);",
+                    "    store.sync();",
+                    "",
+                    "    //TMF14.app.refreshLists();",
+                    "",
+                    "    // reload menu store to update saved count...",
+                    "    // Ext.getStore('menu').load();",
+                    "",
+                    "",
+                    "}"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#saveArtistButton"
+            },
+            "designerId": "71524817-1a74-4c4a-bac8-4364780cf4ef"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onCloseArtistInfoButtonTap",
+                "implHandler": [
+                    "var artistInfoContainer = Ext.ComponentQuery.query('#artistInfoContainer')[0];",
+                    "artistInfoContainer.hide();",
+                    "",
+                    "this.addArtistMainTapListener();"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#closeArtistInfoButton"
+            },
+            "designerId": "8f07d1ca-e6a3-42f9-91e8-105e9292b082"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onPlayButtonTap",
+                "implHandler": [
+                    "var main = Ext.getCmp('main');",
+                    "",
+                    "if (typeof main.artistPlaying === 'undefined') {",
+                    "",
+                    "    main.artistPlaying = {id: ''};",
+                    "}",
+                    "",
+                    "if(button.artist.id !== main.artistPlaying.id) {",
+                    "",
+                    "    if(typeof main.sound !== 'undefined') {",
+                    "        main.sound.stop();",
+                    "    }",
+                    "    // button loading mask goes here...",
+                    "",
+                    "    button.setIconCls('');",
+                    "    button.setHtml('<div class=\"button-loading\">Loading&#8230;</div>');",
+                    "    this.playArtist(button.artist);",
+                    "",
+                    "} else {",
+                    "",
+                    "    if(main.sound.paused) {",
+                    "",
+                    "        main.sound.play();",
+                    "",
+                    "    } else {",
+                    "",
+                    "        button.setIconCls('play');",
+                    "",
+                    "        main.sound.pause();",
+                    "    }",
+                    "}"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#playButton"
+            },
+            "designerId": "2a650e30-bcb9-4344-a7b9-9bd1804b3c92"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onArtistDetailHide",
+                "implHandler": [
+                    "Ext.ComponentQuery.query('#menuButton')[0].show({type: 'fade'});",
+                    "Ext.ComponentQuery.query('#backButton')[0].hide();",
+                    "Ext.ComponentQuery.query('#saveArtistButton')[0].hide({type: 'fadeOut'});",
+                    "",
+                    "component.destroy();"
+                ],
+                "name": "hide",
+                "designer|targetType": "Ext.Container",
+                "designer|controlQuery": "container#artistDetail"
+            },
+            "designerId": "c9c65343-b21e-46ec-b57b-73a0b0714a3b"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onArtistDetailShow",
+                "implHandler": [
+                    "Ext.ComponentQuery.query('#menuButton')[0].hide();",
+                    "Ext.ComponentQuery.query('#backButton')[0].show({type: 'slide', direction:'right'});",
+                    "Ext.ComponentQuery.query('#saveArtistButton')[0].show({type: 'slide', direction:'left'});",
+                    ""
+                ],
+                "name": "show",
+                "designer|targetType": "Ext.Container",
+                "designer|controlQuery": "container#artistDetail"
+            },
+            "designerId": "afda1274-6519-4ba6-b613-5be9a2950cb5"
+        }
+    ]
+}

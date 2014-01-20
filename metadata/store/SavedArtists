@@ -22,7 +22,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "property": "DayNumber"
+                "property": "displayDate",
+                "sortProperty": "jDate"
             },
             "designerId": "f68c8090-2271-440d-a79f-baabc6aecad8"
         },
@@ -48,19 +49,10 @@
             "userConfig": {
                 "fn": "onStoreLoad",
                 "implHandler": [
-                    "var l = records.length,",
-                    "    saved = [];",
                     "",
-                    "for (var i = 0; i < l; i++) {",
+                    "//TMF14.app.loadArtists(saved);",
                     "",
-                    "    if(records[i].data.saved === true) {",
-                    "        saved.push(records[i].data.track_id);",
-                    "",
-                    "",
-                    "    }",
-                    "}",
-                    "",
-                    "TMF14.app.loadArtists(saved);"
+                    "TMF14.app.loadArtists(records);"
                 ],
                 "name": "load"
             },
@@ -97,6 +89,21 @@
                 "name": "removerecords"
             },
             "designerId": "ffbb9ef0-918d-47f9-95e7-671cb3d9bdad"
+        },
+        {
+            "type": "Ext.util.Filter",
+            "reference": {
+                "name": "filters",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "property": "active",
+                "value": [
+                    "true"
+                ]
+            },
+            "designerId": "0e287154-fa94-4c6f-8434-a39ba9b94520"
         }
     ]
 }

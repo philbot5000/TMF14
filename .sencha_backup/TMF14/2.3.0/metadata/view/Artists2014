@@ -1,0 +1,35 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "orangeList"
+        ],
+        "itemId": "artists2014",
+        "designer|userClassName": "Artists2014",
+        "store": "artists2014",
+        "grouped": true
+    },
+    "designerId": "b3686f8c-3728-4895-8787-c3e763d1d883",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    "<div>{artist}</div>"
+                ],
+                "designer|displayName": "itemTpl"
+            },
+            "designerId": "b118ecc1-a895-4338-8739-142d02013049"
+        }
+    ]
+}

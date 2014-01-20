@@ -238,6 +238,61 @@
                 "name": "waveform_url"
             },
             "designerId": "89092f28-b490-4b9a-ba85-3f88f29d0a99"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "displayDate"
+            },
+            "designerId": "89dea8bd-0b3f-4ed7-aa9e-5e1e79deed0e",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "convert",
+                        "designer|params": [
+                            "v",
+                            "rec"
+                        ],
+                        "implHandler": [
+                            "switch(rec.data.DayNumber) {",
+                            "    case 'Day1':",
+                            "        return 'Thursday, March 20';",
+                            "    case 'Day2':",
+                            "        return 'Friday, March 21';",
+                            "    case 'Day3':",
+                            "        return 'Saturday, March 22';",
+                            "    case 'Day4':",
+                            "        return 'Sunday, March 23';",
+                            "        ",
+                            "}"
+                        ]
+                    },
+                    "designerId": "f15ec697-421b-429d-8bc8-4669785b3c29"
+                }
+            ]
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "active"
+            },
+            "designerId": "e682a8c6-d421-4861-a7eb-4f2060b009ae"
         }
     ]
 }

@@ -1,0 +1,349 @@
+{
+    "name": "TMF14",
+    "settings": {},
+    "xdsVersion": "2.2.3",
+    "xdsBuild": 1044,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "touch22",
+    "topInstanceFileMap": {
+        "0c699cd2-e2b6-43ea-976b-906557bf7dfb": {
+            "paths": [
+                "metadata/view/Master",
+                "app/view/override/Master.js",
+                "app/view/Master.js"
+            ],
+            "className": "Master"
+        },
+        "825400aa-50ad-4ee5-98a9-a3415973a358": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "2b8ba94c-86ed-41c7-a7df-ad98a81215eb": {
+            "paths": [
+                "metadata/view/SavedArtists",
+                "app/view/override/SavedArtists.js",
+                "app/view/SavedArtists.js"
+            ],
+            "className": "SavedArtists"
+        },
+        "36520b48-8286-4ddb-a09a-351527e7812f": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        },
+        "5cf2a8e4-916f-45e4-9e0f-45ea0d3b89fa": {
+            "paths": [
+                "metadata/controller/Main",
+                "app/controller/override/Main.js",
+                "app/controller/Main.js"
+            ],
+            "className": "Main"
+        },
+        "dcddf16d-0107-4eba-8d52-51dc0b32434f": {
+            "paths": [
+                "metadata/resource/js"
+            ],
+            "className": "js"
+        },
+        "9afc63c1-46ae-4d47-9033-156cf69f5731": {
+            "paths": [
+                "metadata/resource/js1"
+            ],
+            "className": "js1"
+        },
+        "507dd16d-c756-4fdc-8b67-1ea7a8e8e411": {
+            "paths": [
+                "metadata/resource/css1"
+            ],
+            "className": "css1"
+        },
+        "45bcfdc9-7f5d-445d-bda6-55e47c2814ea": {
+            "paths": [
+                "metadata/store/Menu",
+                "app/store/override/Menu.js",
+                "app/store/Menu.js"
+            ],
+            "className": "Menu"
+        },
+        "08b0672e-e640-48c1-a236-dc784acfcbb7": {
+            "paths": [
+                "metadata/model/Menu",
+                "app/model/override/Menu.js",
+                "app/model/Menu.js"
+            ],
+            "className": "Menu"
+        },
+        "f6f557c2-9125-4f78-b1f5-50e301fa2bdb": {
+            "paths": [
+                "metadata/model/Artist",
+                "app/model/override/Artist.js",
+                "app/model/Artist.js"
+            ],
+            "className": "Artist"
+        },
+        "8894daf7-e442-4623-9ae4-760082648cdc": {
+            "paths": [
+                "metadata/store/SavedArtists",
+                "app/store/override/SavedArtists.js",
+                "app/store/SavedArtists.js"
+            ],
+            "className": "SavedArtists"
+        },
+        "f5ea3fe1-7ad2-4ef4-a6c8-642cec5ce50d": {
+            "paths": [
+                "metadata/store/Thursday",
+                "app/store/override/Thursday.js",
+                "app/store/Thursday.js"
+            ],
+            "className": "Thursday"
+        },
+        "f1782d20-3c3f-46c8-b909-8d2914d1e5f8": {
+            "paths": [
+                "metadata/store/Friday",
+                "app/store/override/Friday.js",
+                "app/store/Friday.js"
+            ],
+            "className": "Friday"
+        },
+        "9d79977d-bfd9-45b6-a75b-47cabd58ebd6": {
+            "paths": [
+                "metadata/store/Saturday",
+                "app/store/override/Saturday.js",
+                "app/store/Saturday.js"
+            ],
+            "className": "Saturday"
+        },
+        "cae79a95-2527-42d2-9423-4957d1acecb2": {
+            "paths": [
+                "metadata/store/Sunday",
+                "app/store/override/Sunday.js",
+                "app/store/Sunday.js"
+            ],
+            "className": "Sunday"
+        },
+        "18708545-dd62-4613-a8c5-2f83140f5186": {
+            "paths": [
+                "metadata/view/Day1",
+                "app/view/override/Day1.js",
+                "app/view/Day1.js"
+            ],
+            "className": "Day1"
+        },
+        "227fd87a-8e2c-4751-9470-6f29c42fe7ea": {
+            "paths": [
+                "metadata/controller/Master",
+                "app/controller/override/Master.js",
+                "app/controller/Master.js"
+            ],
+            "className": "Master"
+        },
+        "290f89c3-a603-4d89-9400-f8bad7f1c525": {
+            "paths": [
+                "metadata/controller/Day1",
+                "app/controller/override/Day1.js",
+                "app/controller/Day1.js"
+            ],
+            "className": "Day1"
+        },
+        "82a2450a-aa19-4992-b3fa-1a6d44810cc4": {
+            "paths": [
+                "metadata/controller/SavedArtists",
+                "app/controller/override/SavedArtists.js",
+                "app/controller/SavedArtists.js"
+            ],
+            "className": "SavedArtists"
+        },
+        "3609f0af-e67d-472e-b895-0419e6a18fa1": {
+            "paths": [
+                "metadata/view/SavedArtistInfo",
+                "app/view/override/SavedArtistInfo.js",
+                "app/view/SavedArtistInfo.js"
+            ],
+            "className": "SavedArtistInfo"
+        },
+        "78ca404c-e66d-4d12-a9de-d5a74a8f7d2f": {
+            "paths": [
+                "metadata/view/ArtistDetail",
+                "app/view/override/ArtistDetail.js",
+                "app/view/ArtistDetail.js"
+            ],
+            "className": "ArtistDetail"
+        },
+        "f936a070-e0bd-45b2-8964-4337eb2cada6": {
+            "paths": [
+                "metadata/controller/ArtistDetail",
+                "app/controller/override/ArtistDetail.js",
+                "app/controller/ArtistDetail.js"
+            ],
+            "className": "ArtistDetail"
+        },
+        "5feaff74-f90f-4d23-9aeb-99185713a003": {
+            "paths": [
+                "metadata/view/Day2",
+                "app/view/override/Day2.js",
+                "app/view/Day2.js"
+            ],
+            "className": "Day2"
+        },
+        "ef13d502-d815-456f-8fee-aacad7b78e70": {
+            "paths": [
+                "metadata/controller/Day2",
+                "app/controller/override/Day2.js",
+                "app/controller/Day2.js"
+            ],
+            "className": "Day2"
+        },
+        "4bd159ff-a5c4-4335-8a7e-809acdf47db0": {
+            "paths": [
+                "metadata/view/Day3",
+                "app/view/override/Day3.js",
+                "app/view/Day3.js"
+            ],
+            "className": "Day3"
+        },
+        "8ce5293a-4851-41a4-b3c5-212158710540": {
+            "paths": [
+                "metadata/controller/Day3",
+                "app/controller/override/Day3.js",
+                "app/controller/Day3.js"
+            ],
+            "className": "Day3"
+        },
+        "8c96bc2f-9b70-419c-9347-734b59053485": {
+            "paths": [
+                "metadata/controller/SavedArtistInfo",
+                "app/controller/override/SavedArtistInfo.js",
+                "app/controller/SavedArtistInfo.js"
+            ],
+            "className": "SavedArtistInfo"
+        },
+        "36c1f28b-3a08-4d30-9ac8-833eadc46678": {
+            "paths": [
+                "metadata/view/Day4",
+                "app/view/override/Day4.js",
+                "app/view/Day4.js"
+            ],
+            "className": "Day4"
+        },
+        "5f45b250-8999-47e2-bcf1-1a4fc9b39308": {
+            "paths": [
+                "metadata/controller/Day4",
+                "app/controller/override/Day4.js",
+                "app/controller/Day4.js"
+            ],
+            "className": "Day4"
+        },
+        "5e9d8f45-d517-4a28-9f26-5c649f12e268": {
+            "paths": [
+                "metadata/view/Start",
+                "app/view/override/Start.js",
+                "app/view/Start.js"
+            ],
+            "className": "Start"
+        },
+        "4629c551-bc30-4b8b-a975-be17b8632fb6": {
+            "paths": [
+                "metadata/view/Artists2013",
+                "app/view/override/Artists2013.js",
+                "app/view/Artists2013.js"
+            ],
+            "className": "Artists2013"
+        },
+        "5210c478-cf06-425d-ac8e-f42bc865d98b": {
+            "paths": [
+                "metadata/store/Artists2013",
+                "app/store/override/Artists2013.js",
+                "app/store/Artists2013.js"
+            ],
+            "className": "Artists2013"
+        },
+        "97e9e128-371b-4082-a3df-0b139989f1f3": {
+            "paths": [
+                "metadata/controller/Artists2013",
+                "app/controller/override/Artists2013.js",
+                "app/controller/Artists2013.js"
+            ],
+            "className": "Artists2013"
+        },
+        "b3686f8c-3728-4895-8787-c3e763d1d883": {
+            "paths": [
+                "metadata/view/Artists2014",
+                "app/view/override/Artists2014.js",
+                "app/view/Artists2014.js"
+            ],
+            "className": "Artists2014"
+        },
+        "c02adb05-bcf6-40c4-93b3-f488b37a2cad": {
+            "paths": [
+                "metadata/store/Artists2014",
+                "app/store/override/Artists2014.js",
+                "app/store/Artists2014.js"
+            ],
+            "className": "Artists2014"
+        },
+        "28feba73-a085-4a61-8e8d-dadf27e44a71": {
+            "paths": [
+                "metadata/controller/Artists2014",
+                "app/controller/override/Artists2014.js",
+                "app/controller/Artists2014.js"
+            ],
+            "className": "Artists2014"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "0c699cd2-e2b6-43ea-976b-906557bf7dfb",
+            "2b8ba94c-86ed-41c7-a7df-ad98a81215eb",
+            "18708545-dd62-4613-a8c5-2f83140f5186",
+            "5feaff74-f90f-4d23-9aeb-99185713a003",
+            "4bd159ff-a5c4-4335-8a7e-809acdf47db0",
+            "36c1f28b-3a08-4d30-9ac8-833eadc46678",
+            "4629c551-bc30-4b8b-a975-be17b8632fb6",
+            "b3686f8c-3728-4895-8787-c3e763d1d883",
+            "3609f0af-e67d-472e-b895-0419e6a18fa1",
+            "78ca404c-e66d-4d12-a9de-d5a74a8f7d2f",
+            "5e9d8f45-d517-4a28-9f26-5c649f12e268"
+        ],
+        "store": [
+            "45bcfdc9-7f5d-445d-bda6-55e47c2814ea",
+            "8894daf7-e442-4623-9ae4-760082648cdc",
+            "f5ea3fe1-7ad2-4ef4-a6c8-642cec5ce50d",
+            "f1782d20-3c3f-46c8-b909-8d2914d1e5f8",
+            "9d79977d-bfd9-45b6-a75b-47cabd58ebd6",
+            "cae79a95-2527-42d2-9423-4957d1acecb2",
+            "5210c478-cf06-425d-ac8e-f42bc865d98b",
+            "c02adb05-bcf6-40c4-93b3-f488b37a2cad"
+        ],
+        "controller": [
+            "5cf2a8e4-916f-45e4-9e0f-45ea0d3b89fa",
+            "227fd87a-8e2c-4751-9470-6f29c42fe7ea",
+            "290f89c3-a603-4d89-9400-f8bad7f1c525",
+            "ef13d502-d815-456f-8fee-aacad7b78e70",
+            "8ce5293a-4851-41a4-b3c5-212158710540",
+            "5f45b250-8999-47e2-bcf1-1a4fc9b39308",
+            "82a2450a-aa19-4992-b3fa-1a6d44810cc4",
+            "f936a070-e0bd-45b2-8964-4337eb2cada6",
+            "8c96bc2f-9b70-419c-9347-734b59053485",
+            "97e9e128-371b-4082-a3df-0b139989f1f3",
+            "28feba73-a085-4a61-8e8d-dadf27e44a71"
+        ],
+        "model": [
+            "08b0672e-e640-48c1-a236-dc784acfcbb7",
+            "f6f557c2-9125-4f78-b1f5-50e301fa2bdb"
+        ],
+        "resource": [
+            "825400aa-50ad-4ee5-98a9-a3415973a358",
+            "36520b48-8286-4ddb-a09a-351527e7812f",
+            "dcddf16d-0107-4eba-8d52-51dc0b32434f",
+            "9afc63c1-46ae-4d47-9033-156cf69f5731",
+            "507dd16d-c756-4fdc-8b67-1ea7a8e8e411"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

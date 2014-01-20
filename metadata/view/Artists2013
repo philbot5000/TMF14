@@ -11,12 +11,6 @@
         ],
         "itemId": "artists2013",
         "designer|userClassName": "Artists2013",
-        "scrollable": [
-            "{",
-            "    directionLock: true,",
-            "    direction: 'vertical'",
-            "}"
-        ],
         "disableSelection": true,
         "scrollToTopOnRefresh": false,
         "store": "artists2013",

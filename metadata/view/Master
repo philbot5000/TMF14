@@ -98,11 +98,9 @@
                     "userConfig": {
                         "implHandler": [
                             "<tpl if='order == 1'>",
-                            "\t<div> {item} <span style=\"padding: 3px; font-size: 150%;\" class=\"x-badge \">{[this.getNumberOfSavedArtists()]}</span></div>",
-                            "<tpl elseif='order == 6'>",
-                            "    <div>{item}<!--<img src=\"{img}\" width=\"100%\" />--></div>",
+                            "\t<div><img style=\"margin-right: 5px\" src=\"{img}\" height=\"20px\" align=\"left\" /> {item} <span style=\"padding: 3px; font-size: 150%;\" class=\"x-badge \">{[this.getNumberOfSavedArtists()]}</span></div>",
                             "<tpl else>",
-                            "        <div> {item} </div>",
+                            "    <div><img style=\"margin-right: 5px\" src=\"{img}\" height=\"20px\" align=\"left\" /> {item} </div>",
                             "</tpl>"
                         ],
                         "designer|displayName": "itemTpl"
@@ -248,10 +246,12 @@
                                 "hidden": true,
                                 "itemId": "saveArtistButton",
                                 "showAnimation": null,
-                                "style": "color: #788b78;",
+                                "style": "color: #788b78; background: #f7f7f7; border: 2px solid #788b78;",
                                 "ui": "plain",
-                                "iconCls": "arrow_right",
-                                "text": "Save"
+                                "width": 65,
+                                "iconAlign": "right",
+                                "iconCls": null,
+                                "text": "SAVE"
                             },
                             "designerId": "5557b984-4e11-4a42-a716-83ba1492d595"
                         }

@@ -5,7 +5,7 @@
     "xdsBuild": 1044,
     "schemaVersion": 1,
     "upgradeVersion": 210000000503,
-    "framework": "touch22",
+    "framework": "touch23",
     "topInstanceFileMap": {
         "0c699cd2-e2b6-43ea-976b-906557bf7dfb": {
             "paths": [
@@ -292,6 +292,22 @@
                 "app/controller/Artists2014.js"
             ],
             "className": "Artists2014"
+        },
+        "91dd865e-9db6-408b-990a-3501dcfe8669": {
+            "paths": [
+                "metadata/view/About",
+                "app/view/override/About.js",
+                "app/view/About.js"
+            ],
+            "className": "About"
+        },
+        "772a8d11-b1b3-44c8-8cf0-f0f0ac7785f6": {
+            "paths": [
+                "metadata/controller/About",
+                "app/controller/override/About.js",
+                "app/controller/About.js"
+            ],
+            "className": "About"
         }
     },
     "viewOrderMap": {
@@ -306,7 +322,8 @@
             "b3686f8c-3728-4895-8787-c3e763d1d883",
             "3609f0af-e67d-472e-b895-0419e6a18fa1",
             "78ca404c-e66d-4d12-a9de-d5a74a8f7d2f",
-            "5e9d8f45-d517-4a28-9f26-5c649f12e268"
+            "5e9d8f45-d517-4a28-9f26-5c649f12e268",
+            "91dd865e-9db6-408b-990a-3501dcfe8669"
         ],
         "store": [
             "45bcfdc9-7f5d-445d-bda6-55e47c2814ea",
@@ -329,7 +346,8 @@
             "f936a070-e0bd-45b2-8964-4337eb2cada6",
             "8c96bc2f-9b70-419c-9347-734b59053485",
             "97e9e128-371b-4082-a3df-0b139989f1f3",
-            "28feba73-a085-4a61-8e8d-dadf27e44a71"
+            "28feba73-a085-4a61-8e8d-dadf27e44a71",
+            "772a8d11-b1b3-44c8-8cf0-f0f0ac7785f6"
         ],
         "model": [
             "08b0672e-e640-48c1-a236-dc784acfcbb7",

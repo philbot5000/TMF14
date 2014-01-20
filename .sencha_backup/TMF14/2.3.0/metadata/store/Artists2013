@@ -1,0 +1,72 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "Artist",
+        "storeId": "artists2013",
+        "designer|userClassName": "Artists2013"
+    },
+    "designerId": "5210c478-cf06-425d-ac8e-f42bc865d98b",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://philmerrell.com/treefort/artists2013.json"
+            },
+            "designerId": "215af642-6639-4523-98c7-0abb90c32eff",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "f90781ff-e5ef-4596-b421-d5d1b558a4ed"
+                }
+            ]
+        },
+        {
+            "type": "Ext.util.Grouper",
+            "reference": {
+                "name": "grouper",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "property": null
+            },
+            "designerId": "19658c68-61f2-495a-ab51-fc6674d1119b",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "groupFn",
+                        "designer|params": [
+                            "item"
+                        ],
+                        "implHandler": [
+                            "return item.data.artist[0].toUpperCase();"
+                        ]
+                    },
+                    "designerId": "6a5cf568-ff50-40bd-b95b-9b30592479f5"
+                }
+            ]
+        }
+    ]
+}

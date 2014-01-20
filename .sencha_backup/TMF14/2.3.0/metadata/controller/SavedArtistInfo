@@ -1,0 +1,132 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SavedArtistInfo"
+    },
+    "designerId": "8c96bc2f-9b70-419c-9347-734b59053485",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSavedArtistInfoHide",
+                "implHandler": [
+                    "component.destroy();"
+                ],
+                "name": "hide",
+                "designer|targetType": "Ext.Panel",
+                "designer|controlQuery": "panel#savedArtistFloatPanel"
+            },
+            "designerId": "1f4dd0b0-e02b-423d-b03d-8a86b21a53e8"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onRemoveArtistTap",
+                "implHandler": [
+                    "var store = Ext.getStore('savedArtists'),",
+                    "    panel = Ext.ComponentQuery.query('#savedArtistFloatPanel')[0],",
+                    "    artist = panel.config.artist,",
+                    "    list = Ext.ComponentQuery.query('#savedArtists')[0];",
+                    "",
+                    "// Remove artist from savedArtists store",
+                    "var savedIndex = store.findExact('track_id', artist.track_id),",
+                    "    savedRecord = store.getAt(savedIndex);",
+                    "",
+                    "console.log(savedRecord);",
+                    "",
+                    "savedRecord.set('saved', false);",
+                    "",
+                    "store.sync();",
+                    "store.remove(savedRecord);",
+                    "",
+                    "// Update the orginal store record to saved false",
+                    "",
+                    "var dayStore = this.getStore(artist.DayNumber),",
+                    "    index = dayStore.findExact('track_id', artist.track_id),",
+                    "    record = dayStore.getAt(index);",
+                    "",
+                    "record.set('saved', false);",
+                    "",
+                    "console.log(artist);",
+                    "",
+                    "panel.hide();"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#removeArtist"
+            },
+            "designerId": "e705bc8a-fb36-46cd-918e-7e26afe3a986"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getStore",
+                "designer|params": [
+                    "record"
+                ],
+                "implHandler": [
+                    "console.log(record);",
+                    "var store;",
+                    "",
+                    "",
+                    "switch(record) {",
+                    "    case 'Day1':",
+                    "        store = Ext.getStore('thursdayArtists');",
+                    "        break;",
+                    "    case 'Day2':",
+                    "    \tstore = Ext.getStore('fridayArtists');",
+                    "        break;",
+                    "    case 'Day3':",
+                    "        store = Ext.getStore('saturdayArtists');",
+                    "        break;",
+                    "    case 'Day4':",
+                    "    \tstore = Ext.getStore('fridayArtists');",
+                    "        break;",
+                    "}",
+                    "",
+                    "return store;"
+                ]
+            },
+            "designerId": "6d9d60c7-d147-4f2e-b1c4-a52a86bf1650"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onViewArtistTap",
+                "implHandler": [
+                    "button.getParent().hide();",
+                    "this.redirectTo('artistDetail');"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#viewArtist"
+            },
+            "designerId": "8cdf4260-8274-4477-9147-ddc554f937b9"
+        }
+    ]
+}

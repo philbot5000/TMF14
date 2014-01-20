@@ -1,0 +1,94 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "autoSync": true,
+        "model": "Artist",
+        "storeId": "savedArtists",
+        "designer|userClassName": "SavedArtists"
+    },
+    "designerId": "8894daf7-e442-4623-9ae4-760082648cdc",
+    "cn": [
+        {
+            "type": "Ext.util.Grouper",
+            "reference": {
+                "name": "grouper",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "property": "displayDate",
+                "sortProperty": "jDate"
+            },
+            "designerId": "f68c8090-2271-440d-a79f-baabc6aecad8"
+        },
+        {
+            "type": "Ext.util.Sorter",
+            "reference": {
+                "name": "sorters",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "property": "jDate"
+            },
+            "designerId": "fce5aead-20c6-4aaf-809d-423b4cbbb34b"
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onStoreLoad",
+                "implHandler": [
+                    "",
+                    "//TMF14.app.loadArtists(saved);",
+                    "",
+                    "TMF14.app.loadArtists(records);"
+                ],
+                "name": "load"
+            },
+            "designerId": "ea730565-f04f-4ca7-979c-1a8480735870"
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onStoreAddrecords",
+                "implHandler": [
+                    "Ext.ComponentQuery.query('#menu')[0].refresh();"
+                ],
+                "name": "addrecords"
+            },
+            "designerId": "50826b38-f406-4d6a-ae1c-0117082defc2"
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onStoreRemoverecords",
+                "implHandler": [
+                    "Ext.ComponentQuery.query('#menu')[0].refresh();"
+                ],
+                "name": "removerecords"
+            },
+            "designerId": "ffbb9ef0-918d-47f9-95e7-671cb3d9bdad"
+        }
+    ]
+}

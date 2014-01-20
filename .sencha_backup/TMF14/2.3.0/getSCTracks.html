@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script src="http://connect.soundcloud.com/sdk.js"></script>
+		<script>
+			SC.initialize({client_id: 'df942240e3e63f8e23596df0893eab2a'});
+			SC.get('/tracks', {q: 'Treefort Music Fest', limit:'250'}, function(tracks, error) {
+				//document.write('[');
+				for(var i = 0; i < tracks.length; i++) {
+					
+					if(tracks[i].user.username === "Treefort Music Fest") {
+					// Split up Title string into artist and song info
+        			var rawTitle = tracks[i].title,
+            			rawTitleArray = rawTitle.split(' - '),
+            			artist = rawTitleArray[0],
+            			song = rawTitleArray[1];
+
+        			// Split up tags
+        			var rawTags = tracks[i].tag_list,
+            			tagArray = rawTags.split('"');
+            			//jDate = new Date(tagArray[3]+" "+tagArray[5]+tagArray[6]);
+
+						console.log(tracks[i]);
+						document.write('{');
+						document.write('"artwork_url": "'+tracks[i].artwork_url+'", ');
+						document.write('"artist": "'+artist+'", ');
+						document.write('"year": "'+tagArray[6]+'", ');
+						document.write('"venue": "'+tagArray[1]+'", ');
+						document.write('"song": "'+song+'", ');
+						document.write('"time": "'+tagArray[5]+'", ');
+						document.write('"track_id": "'+tracks[i].id+'", ');
+						document.write('"day": "'+tagArray[3]+'", ');
+						document.write('"permalink_url": "'+tracks[i].permalink_url+'", ');
+						document.write('"waveform_url": "'+tracks[i].waveform_url+'", ');
+						document.write('"jDate": "" ');
+						
+						
+						document.write('},');
+						
+						
+					}
+
+				}
+				//document.write(']');
+
+			});
+		</script>
+		</head>
+	<body>
+		
+	
+	</body>
+</html>

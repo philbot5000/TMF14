@@ -1,0 +1,87 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "Artist",
+        "storeId": "artists2014",
+        "designer|userClassName": "Artists2014"
+    },
+    "designerId": "c02adb05-bcf6-40c4-93b3-f488b37a2cad",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://philmerrell.com/treefort/artists2014.json"
+            },
+            "designerId": "96e10289-0ef9-4562-8542-28e9dbbc70f0",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "4ea373b5-c47a-4177-83b9-4138bbdade4d"
+                }
+            ]
+        },
+        {
+            "type": "Ext.util.Grouper",
+            "reference": {
+                "name": "grouper",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "0e936f8a-dd97-4465-8518-106d9ccb29ed",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "groupFn",
+                        "designer|params": [
+                            "item"
+                        ],
+                        "implHandler": [
+                            "return item.data.artist[0].toUpperCase();"
+                        ]
+                    },
+                    "designerId": "1894f728-87f2-4824-b01c-d8c415684ddc"
+                }
+            ]
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onJsonstoreLoad",
+                "implHandler": [
+                    "// check if lastModified property of json file and if remote is greater than ",
+                    "// local then for each saved record replace saved record with newer remote version",
+                    "// of same record."
+                ],
+                "name": "load"
+            },
+            "designerId": "41d9284d-d9bc-4485-bdb3-fa5817b9e283"
+        }
+    ]
+}

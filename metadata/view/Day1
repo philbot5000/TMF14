@@ -6,6 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
+        "scrollable": [
+            "{",
+            "    direction: 'vertical',",
+            "    directionLock: true",
+            "}"
+        ],
         "cls": [
             "orangeList"
         ],
@@ -14,12 +20,6 @@
         "designer|userClassName": "Day1",
         "designer|userAlias": null,
         "autoDestroy": null,
-        "scrollable": [
-            "{",
-            "    directionLock: true,",
-            "    direction: 'vertical'",
-            "}"
-        ],
         "disableSelection": false,
         "store": "thursdayArtists",
         "disclosureProperty": "saved",
@@ -30,6 +30,13 @@
         "scrollable": "object"
     },
     "designerId": "18708545-dd62-4613-a8c5-2f83140f5186",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "scrollable",
+            "type": "string"
+        }
+    ],
     "cn": [
         {
             "type": "Ext.XTemplate",
@@ -58,12 +65,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "container|align": "start",
+                "container|align": "center",
                 "bottom": 0,
                 "docked": "top",
                 "height": 50,
-                "hidden": false,
-                "html": "<img src=\"img/badge.png\" height=\"40px\" align=\"left\" /> <span style=\"padding-top: 10px !important; font-size: 1.3em;\">Thursday, March 21</span>",
+                "hidden": null,
+                "html": null,
                 "itemId": "thursdayListIndicator",
                 "padding": 5,
                 "style": "z-index: 9999 !important; position: absolute; color: #fff; background: rgba(0,0,0, 0.6);",
@@ -71,7 +78,33 @@
                 "zIndex": null,
                 "layout": "hbox"
             },
-            "designerId": "ae34818c-4770-4235-be3d-825a6d64c38a"
+            "designerId": "ae34818c-4770-4235-be3d-825a6d64c38a",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "<img src=\"img/badge.png\" height=\"40px\" /> "
+                    },
+                    "designerId": "7ceb7359-efea-4026-822a-85c244b72a4c"
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "<span style=\"margin-top: 10px !important; font-size: 1.3em;\">Thursday, March 20</span>"
+                    },
+                    "designerId": "4bbce6c0-bc18-425f-9564-879dd786e9b0"
+                }
+            ]
         }
     ]
 }

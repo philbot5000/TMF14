@@ -57,6 +57,21 @@
                 "property": "jDate"
             },
             "designerId": "7d844033-04f9-4f99-9f42-6da3326828eb"
+        },
+        {
+            "type": "Ext.util.Filter",
+            "reference": {
+                "name": "filters",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "property": "active",
+                "value": [
+                    "true"
+                ]
+            },
+            "designerId": "80d525a6-5aa5-4ad5-8e9e-f181c2b98b91"
         }
     ]
 }

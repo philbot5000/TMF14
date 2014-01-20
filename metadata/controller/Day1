@@ -20,21 +20,12 @@
             "userConfig": {
                 "fn": "onDay1Initialize",
                 "implHandler": [
-                    "",
-                    "component.add(",
-                    "    {",
-                    "        xtype: 'container',",
-                    "        scrollDock: 'top',",
-                    "        itemId: 'listImage',",
-                    "        html: '<img src=\"images/list1.jpg\" width=\"100%\" />',",
-                    "        width: '100%'",
-                    "    }",
-                    ");",
-                    "",
                     "TMF14.app.setDayIndicator(component, '#thursdayListIndicator');",
                     "",
                     "var scroller = component.getScrollable().getScroller(),",
                     "    mainImage = component.query('#listImage')[0];",
+                    "",
+                    "/* Parallax Scrolling ...",
                     "",
                     "scroller.on('scroll', function(scroll) {",
                     "    if(scroll.position.y > 0) {",
@@ -44,7 +35,7 @@
                     "        //console.log(Math.abs(scroll.position.y));",
                     "    }",
                     "}",
-                    ");"
+                    ");*/"
                 ],
                 "name": "initialize",
                 "designer|targetType": "Ext.dataview.List",

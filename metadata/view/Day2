@@ -6,6 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
+        "scrollable": [
+            "{",
+            "    direction: 'vertical',",
+            "    directionLock: true",
+            "}"
+        ],
         "cls": [
             "orangeList"
         ],
@@ -14,12 +20,6 @@
         "style": null,
         "designer|userClassName": "Day2",
         "designer|userAlias": "day2",
-        "scrollable": [
-            "{",
-            "    directionLock: true,",
-            "    direction: 'vertical'",
-            "}"
-        ],
         "disableSelection": false,
         "store": "fridayArtists",
         "disclosureProperty": "saved",
@@ -30,7 +30,63 @@
         "scrollable": "object"
     },
     "designerId": "5feaff74-f90f-4d23-9aeb-99185713a003",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "scrollable",
+            "type": "string"
+        }
+    ],
     "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "center",
+                "bottom": 0,
+                "docked": "top",
+                "height": 50,
+                "hidden": null,
+                "html": null,
+                "itemId": "fridayListIndicator",
+                "padding": 5,
+                "style": "z-index: 9999 !important; position: absolute; color: #fff; background: rgba(0,0,0, 0.6);",
+                "width": "100%",
+                "zIndex": null,
+                "layout": "hbox"
+            },
+            "designerId": "0837c067-393b-454e-935a-52e3181fe760",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "<img src=\"img/badge.png\" height=\"40px\" /> "
+                    },
+                    "designerId": "80d61beb-b97d-480d-b97f-16cef9ed176b"
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "<span style=\"margin-top: 10px !important; font-size: 1.3em;\">Friday, March 21</span>"
+                    },
+                    "designerId": "4546663d-7cf3-49d7-97dd-0d073a0058d7"
+                }
+            ]
+        },
         {
             "type": "Ext.XTemplate",
             "reference": {
@@ -45,27 +101,6 @@
                 "designer|displayName": "itemTpl"
             },
             "designerId": "ba500798-9ba7-4901-ad4c-80ecb2bb8ee1"
-        },
-        {
-            "type": "Ext.Container",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "bottom": 0,
-                "docked": "top",
-                "height": 40,
-                "hidden": true,
-                "html": "<img src=\"img/badge.png\" height=\"20px\" align=\"left\" />  Friday, March 22",
-                "itemId": "fridayListIndicator",
-                "padding": 5,
-                "style": "z-index: 9999 !important; position: absolute; color: #fff; background: rgba(0,0,0, 0.6);",
-                "width": "100%",
-                "zIndex": null
-            },
-            "designerId": "b32891d6-2db9-40de-becd-f53c8cc0e792"
         }
     ]
 }

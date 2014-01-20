@@ -1,0 +1,62 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "groupField": null,
+        "model": "Artist",
+        "storeId": "thursdayArtists",
+        "designer|userClassName": "Thursday"
+    },
+    "designerId": "f5ea3fe1-7ad2-4ef4-a6c8-642cec5ce50d",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "cd7c1f16-11de-411e-a27f-8d3183430547",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "f9c76f73-10fd-4a6e-a973-4cbe5be705fe"
+                }
+            ]
+        },
+        {
+            "type": "Ext.util.Grouper",
+            "reference": {
+                "name": "grouper",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "property": "venue",
+                "sortProperty": null
+            },
+            "designerId": "19cdf48e-e078-485a-ae46-0e16df388270"
+        },
+        {
+            "type": "Ext.util.Sorter",
+            "reference": {
+                "name": "sorters",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "property": "jDate"
+            },
+            "designerId": "41dc3bc7-874e-42cb-bb99-190732ee167f"
+        }
+    ]
+}

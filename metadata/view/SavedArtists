@@ -6,6 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
+        "scrollable": [
+            "{",
+            "    direction: 'vertical',",
+            "    directionLock: true",
+            "}"
+        ],
         "cls": [
             "orangeList"
         ],
@@ -15,16 +21,21 @@
         "requires": [
             "TMF14.view.SavedArtistInfo"
         ],
-        "scrollable": [
-            "{",
-            "    directionLock: true,",
-            "    direction: 'vertical'",
-            "}"
-        ],
         "emptyText": "You haven't saved any artists yet.<br /><img src=\"images/list1.jpg\" width=\"100%\" />",
-        "store": "savedArtists"
+        "store": "savedArtists",
+        "grouped": true
+    },
+    "configAlternates": {
+        "scrollable": "object"
     },
     "designerId": "2b8ba94c-86ed-41c7-a7df-ad98a81215eb",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "scrollable",
+            "type": "string"
+        }
+    ],
     "cn": [
         {
             "type": "Ext.XTemplate",

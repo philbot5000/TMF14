@@ -1,0 +1,130 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Day1"
+    },
+    "designerId": "290f89c3-a603-4d89-9400-f8bad7f1c525",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDay1Initialize",
+                "implHandler": [
+                    "TMF14.app.setDayIndicator(component, '#thursdayListIndicator');",
+                    "",
+                    "var scroller = component.getScrollable().getScroller(),",
+                    "    mainImage = component.query('#listImage')[0];",
+                    "",
+                    "scroller.on('scroll', function(scroll) {",
+                    "    if(scroll.position.y > 0) {",
+                    "        mainImage.setStyle('-webkit-transform: translate3d(0px, '+ scroll.position.y / 3 +'px, 0px);');",
+                    "    } else {",
+                    "        mainImage.setStyle('-webkit-transform: perspective(1200) translate3d(0px, '+ scroll.position.y / 3 +'px, '+Math.abs(scroll.position.y * 5)+'px);');",
+                    "        //console.log(Math.abs(scroll.position.y));",
+                    "    }",
+                    "}",
+                    ");"
+                ],
+                "name": "initialize",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#Day1"
+            },
+            "designerId": "88a1d120-5830-4e87-96c2-65f2d2250244"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDay1Activate",
+                "implHandler": [
+                    "var listDayIndicator = Ext.ComponentQuery.query('#thursdayListIndicator');",
+                    "",
+                    "listDayIndicator[0].show({type: 'fade'});"
+                ],
+                "name": "activate",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#Day1"
+            },
+            "designerId": "e56ac93d-5569-4294-9f05-e365762864be"
+        },
+        {
+            "type": "Ext.app.Route",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "Day1",
+                "fn": "showDay1",
+                "implHandler": [
+                    "var main = Ext.getCmp('main'),",
+                    "    day = Ext.ComponentQuery.query('#Day1')[0] || Ext.create('TMF14.view.Day1');",
+                    "",
+                    "main.setActiveItem(day);"
+                ]
+            },
+            "designerId": "f9229fc9-a99b-41f4-bc80-e92490151632"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDay1ItemTap",
+                "implHandler": [
+                    "var main = Ext.getCmp('main'),",
+                    "    backButton = Ext.ComponentQuery.query('#backButton')[0];",
+                    "",
+                    "backButton.dayNumber = 'Day1';",
+                    "",
+                    "main.artistInfo = record.data;",
+                    "this.redirectTo('artistDetail');"
+                ],
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#Day1"
+            },
+            "designerId": "803ae588-cc69-49f6-bfc7-e3bc02ae0411"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDay1Hide",
+                "implHandler": [
+                    "var main = Ext.getCmp('main');",
+                    "",
+                    "setTimeout(function() {",
+                    "    main.remove(component, false);",
+                    "}, 500);"
+                ],
+                "name": "hide",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#Day1"
+            },
+            "designerId": "4301e807-c33a-4d8a-bbcd-764990fa15b0"
+        }
+    ]
+}

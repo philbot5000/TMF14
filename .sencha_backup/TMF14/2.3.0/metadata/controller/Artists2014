@@ -1,0 +1,75 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Artists2014"
+    },
+    "designerId": "28feba73-a085-4a61-8e8d-dadf27e44a71",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onArtists2014Initialize",
+                "implHandler": [
+                    ""
+                ],
+                "name": "initialize",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#artists2014"
+            },
+            "designerId": "6c135120-871d-4304-af0f-ef645bd2900f"
+        },
+        {
+            "type": "Ext.app.Route",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "artists2014",
+                "fn": "showArtists2014",
+                "implHandler": [
+                    "var main = Ext.getCmp('main'),",
+                    "    day = Ext.create('TMF14.view.Artists2014');",
+                    "",
+                    "main.setActiveItem(day);"
+                ]
+            },
+            "designerId": "d51d1790-40c7-41f4-af45-87c2da7b08ae"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onArtists2014ItemTap",
+                "implHandler": [
+                    "var main = Ext.getCmp('main'),",
+                    "    backButton = Ext.ComponentQuery.query('#backButton')[0];",
+                    "",
+                    "backButton.dayNumber = 'artists2014';",
+                    "console.log(record.data);",
+                    "main.artistInfo = record.data;",
+                    "this.redirectTo('artistDetail');"
+                ],
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "list#artists2014"
+            },
+            "designerId": "a5572ed5-12b9-44f4-a983-9e1c0a6f75cc"
+        }
+    ]
+}

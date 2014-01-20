@@ -1,3 +1,12 @@
+.x-button-label {
+    font-size: 1.2em;
+}
+
+.about {
+    font-size: 1.4em;
+    font-weight: 200;
+    
+}
 .artistDetailButton {
     border: 1px solid #eb6145 !important; 
     position: absolute;
@@ -62,6 +71,11 @@
 
 }
 
+.x-badge {
+    background: #EB6145;
+    color: #fff;
+    border: 0;
+}
 .x-list .x-list-disclosure:before {
 
 	content: "\e606" !important;
@@ -74,6 +88,9 @@
 }
 .main-background {
     background: #f7f7f7 !important;
+  -webkit-box-shadow: -3px 0px 8px 0px rgba(0,0,0,0.2);
+  box-shadow:         -3px 0px 8px 0px rgba(0,0,0,0.2);
+
 }
 .artist-info-button {
     background: rgba(255,255,255, 0.8) !important;
@@ -85,6 +102,13 @@
     font-size: 1.6em;
     text-shadow: 2px 2px #000;
 
+}
+
+.artist-song {
+    font-weight: 100;
+    font-size: 1em;
+    text-shadow: 2px 2px #000;
+    color: #fff;
 }
 body {
     font-family: 'Roboto', sans-serif !important;

@@ -10,7 +10,15 @@
         "designer|userClassName": "Start",
         "designer|userAlias": "start",
         "layout": "vbox",
-        "scrollable": true
+        "scrollable": [
+            "{",
+            "    direction: 'vertical',",
+            "    directionLock: true",
+            "}"
+        ]
+    },
+    "configAlternates": {
+        "scrollable": "object"
     },
     "designerId": "5e9d8f45-d517-4a28-9f26-5c649f12e268",
     "cn": [

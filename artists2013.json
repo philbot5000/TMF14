@@ -1,18 +1,5 @@
 [
-    {
-        "artwork_url": "http://i1.sndcdn.com/artworks-000036107416-hgsxa2-large.jpg?c831450",
-        "artist": "Magic Sword",
-        "year": "2013",
-        "venue": "China Blue Main",
-        "song": "The Way Home",
-        "time": "11:00 PM",
-        "track_id": "71051395",
-        "day": "Saturday, March 23",
-        "permalink_url": "http://soundcloud.com/treefort-music-fest/magic-sword-the-way-home",
-        "waveform_url": "http://w1.sndcdn.com/vhz1wXSehvOt_m.png",
-        "jDate": "",
-        "saved": false
-    },
+
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000036103732-br0c2b-large.jpg?c831450",
         "artist": "Foxygen",
@@ -25,7 +12,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/foxygen-shuggie",
         "waveform_url": "http://w1.sndcdn.com/uCDh93CYLJp4_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040846086-cr2pcs-large.jpg?c831450",
@@ -39,7 +26,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/mt-st-helens-vietnam-band",
         "waveform_url": "http://w1.sndcdn.com/yxrDk1BVdegi_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000043476045-3tp9bh-large.jpg?c831450",
@@ -53,7 +40,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/brother-dan-a-night-at-the",
         "waveform_url": "http://w1.sndcdn.com/65n4un6hv0Js_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000038470055-nq6c3c-large.jpg?c831450",
@@ -67,7 +54,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/nude-pop-lurker",
         "waveform_url": "http://w1.sndcdn.com/1PVOlBkWImnY_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000036106893-n83p9z-large.jpg?c831450",
@@ -81,7 +68,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/shigeto-eternal-life",
         "waveform_url": "http://w1.sndcdn.com/EfxffPvpBFVl_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040852271-4zjuwj-large.jpg?c831450",
@@ -95,7 +82,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/dead-winter-carpenters-find",
         "waveform_url": "http://w1.sndcdn.com/jQp26DyvN0Hj_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040896133-ld5hvu-large.jpg?c831450",
@@ -109,7 +96,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/cc-nn-sage",
         "waveform_url": "http://w1.sndcdn.com/cjBrh87lVORG_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000038332721-gj988m-large.jpg?c831450",
@@ -123,7 +110,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/sharon-jones-the-dap-kings-i",
         "waveform_url": "http://w1.sndcdn.com/v1oWbbFlLjdJ_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040959681-517qyy-large.jpg?c831450",
@@ -137,7 +124,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/the-gunfighters-never-enough",
         "waveform_url": "http://w1.sndcdn.com/kMjxxRsBZ4jh_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000036100951-9ibcwc-large.jpg?c831450",
@@ -151,7 +138,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/white-lung-take-the-mirror",
         "waveform_url": "http://w1.sndcdn.com/V6BB6Kb28Fcf_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041116827-wulwtt-large.jpg?c831450",
@@ -165,7 +152,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/danger-beard-wheels",
         "waveform_url": "http://w1.sndcdn.com/KAHOipwNSXac_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040847897-c0w39y-large.jpg?c831450",
@@ -179,7 +166,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/death-songs-overdose",
         "waveform_url": "http://w1.sndcdn.com/A95YL1TgUALV_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040847595-jkpdkh-large.jpg?c831450",
@@ -193,7 +180,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/yumadudes-pollen-quick-dirty",
         "waveform_url": "http://w1.sndcdn.com/Wt6IIckGpEbm_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040896886-5ddnof-large.jpg?c831450",
@@ -207,7 +194,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/memory-smoker-excerpt-from",
         "waveform_url": "http://w1.sndcdn.com/6F05mnruYad1_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041241138-z852oi-large.jpg?c831450",
@@ -221,7 +208,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/the-foxxtones-ill-be-your-baby",
         "waveform_url": "http://w1.sndcdn.com/p3FvjurQ8sWP_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040904205-uvv7wl-large.jpg?c831450",
@@ -235,7 +222,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/wax-idols-sound-of-a-void",
         "waveform_url": "http://w1.sndcdn.com/MlOZxwQco8Ql_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040852017-sbo4m0-large.jpg?c831450",
@@ -249,7 +236,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/alpenflow-filter-9",
         "waveform_url": "http://w1.sndcdn.com/dwxyKYip0tNr_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040893381-wj4ol0-large.jpg?c831450",
@@ -263,7 +250,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/poke-dancin-shoes",
         "waveform_url": "http://w1.sndcdn.com/mhtdPyKqIS7Y_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040845516-vn6v9q-large.jpg?c831450",
@@ -277,7 +264,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/wolvserpent",
         "waveform_url": "http://w1.sndcdn.com/F9OgvaLolTci_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041228106-2tmyal-large.jpg?c831450",
@@ -291,7 +278,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/hokum-hi-flyers-train-that",
         "waveform_url": "http://w1.sndcdn.com/w4kYNDofubJG_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040969245-rp5eoj-large.jpg?c831450",
@@ -305,7 +292,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/whiskey-sasquatch-pulp-fiction",
         "waveform_url": "http://w1.sndcdn.com/JLU3a0powkZe_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040849784-llvfc9-large.jpg?c831450",
@@ -319,7 +306,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/parade-of-bad-guys-up-north",
         "waveform_url": "http://w1.sndcdn.com/jdgZEBHzt6nf_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040895362-6u4zzc-large.jpg?c831450",
@@ -333,7 +320,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/sam-cooper-friends-bones",
         "waveform_url": "http://w1.sndcdn.com/94dVg5z4tjeB_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040849952-bvfhwo-large.jpg?c831450",
@@ -347,7 +334,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/demoni-beware-of-the-moon",
         "waveform_url": "http://w1.sndcdn.com/W71ADRFol33b_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040905847-wj9fy8-large.jpg?c831450",
@@ -361,7 +348,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/apostrophes-eco",
         "waveform_url": "http://w1.sndcdn.com/4WcGdFhLfGWC_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040895782-kzlm1w-large.jpg?c831450",
@@ -375,7 +362,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/trite-candieland",
         "waveform_url": "http://w1.sndcdn.com/4bzXf1bPmdw9_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040884676-khr7t7-large.jpg?c831450",
@@ -389,7 +376,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/grandparents-bitches",
         "waveform_url": "http://w1.sndcdn.com/C8KnH3eF9rlH_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040891001-wr4dpn-large.jpg?c831450",
@@ -403,7 +390,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/solomons-hollow-dakota",
         "waveform_url": "http://w1.sndcdn.com/KObhKmP7gOQA_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040847481-18qi24-large.jpg?c831450",
@@ -417,7 +404,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/hang-time-big-kids",
         "waveform_url": "http://w1.sndcdn.com/U5tfgEEmvjji_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040899939-68hswu-large.jpg?c831450",
@@ -431,7 +418,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/you-are-plural-no-more",
         "waveform_url": "http://w1.sndcdn.com/dkDMgG8u8Y0V_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040900528-t4jjap-large.jpg?c831450",
@@ -445,7 +432,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/ugly-winner-other-things",
         "waveform_url": "http://w1.sndcdn.com/4lAiS7AZjMLp_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040849194-b6favh-large.jpg?c831450",
@@ -459,7 +446,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/bad-acid-trip-modified",
         "waveform_url": "http://w1.sndcdn.com/Ihgx1dIa22AY_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040883346-pmngyh-large.jpg?c831450",
@@ -473,7 +460,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/andy-d-hes-a-freak",
         "waveform_url": "http://w1.sndcdn.com/t0REWjgM1g9m_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041073770-g4exgi-large.jpg?c831450",
@@ -487,7 +474,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/couches-radio-life",
         "waveform_url": "http://w1.sndcdn.com/I8dPnBsBM9th_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000036103164-n64qam-large.jpg?c831450",
@@ -501,7 +488,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/messy-sparkles-havadine",
         "waveform_url": "http://w1.sndcdn.com/Rli24oYP4rsc_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041205894-fz2wzw-large.jpg?c831450",
@@ -515,7 +502,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/lakefriend-take-it-all-with",
         "waveform_url": "http://w1.sndcdn.com/ttggolryqOfG_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040851486-9e7k3s-large.jpg?c831450",
@@ -529,7 +516,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/oso-negro-carpaccio",
         "waveform_url": "http://w1.sndcdn.com/QnVozg2czVl3_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040886010-wt7b4j-large.jpg?c831450",
@@ -543,7 +530,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/brackney-big-man",
         "waveform_url": "http://w1.sndcdn.com/IUFPuO4U2dVK_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040886219-2fpfvd-large.jpg?c831450",
@@ -557,7 +544,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/buckskin-bible-revue-part-of",
         "waveform_url": "http://w1.sndcdn.com/6lMvIaypSnpk_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040989014-dzzg5a-large.jpg?c831450",
@@ -571,7 +558,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/raid-virus-1",
         "waveform_url": "http://w1.sndcdn.com/XC49130Onc1S_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041233714-r4dpmz-large.jpg?c831450",
@@ -585,7 +572,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/built-to-spill-revolution",
         "waveform_url": "http://w1.sndcdn.com/sX53w2nw0LNQ_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040903409-d21j2p-large.jpg?c831450",
@@ -599,7 +586,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/a-k-a-belle-hg-wells-is-alive",
         "waveform_url": "http://w1.sndcdn.com/tjeA7TUckl8e_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000038698699-4ba6ui-large.jpg?c831450",
@@ -613,7 +600,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/the-dodgy-mountain-men-simple",
         "waveform_url": "http://w1.sndcdn.com/kqQRDIztF3Nm_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000036105568-z1am6p-large.jpg?c831450",
@@ -627,7 +614,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/the-last-bison-switzerland",
         "waveform_url": "http://w1.sndcdn.com/hDlFGdOlfCop_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040881743-fkx5eb-large.jpg?c831450",
@@ -641,7 +628,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/sneezzbole-new-blisters",
         "waveform_url": "http://w1.sndcdn.com/lTjxXhg3VVxD_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000036105155-4qz7wf-large.jpg?c831450",
@@ -655,7 +642,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/japanther-spread-so-thin",
         "waveform_url": "http://w1.sndcdn.com/fImiUyoIR0Wm_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040890115-88ix8l-large.jpg?c831450",
@@ -669,7 +656,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/art-fad-420-u-gave-me-plenty",
         "waveform_url": "http://w1.sndcdn.com/1wasBAkdRInU_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040897380-sq9b19-large.jpg?c831450",
@@ -683,7 +670,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/the-girl",
         "waveform_url": "http://w1.sndcdn.com/Kg2AYEyzVLod_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040981648-5lemwm-large.jpg?c831450",
@@ -697,7 +684,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/brainstorm-she-moves",
         "waveform_url": "http://w1.sndcdn.com/v0f0tiUy46Uh_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040979149-374yzb-large.jpg?c831450",
@@ -711,7 +698,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/urb-figaro",
         "waveform_url": "http://w1.sndcdn.com/afTAnOMwdmjM_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040892528-zi6o9a-large.jpg?c831450",
@@ -725,7 +712,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/sun-blood-stories-burn-it-down",
         "waveform_url": "http://w1.sndcdn.com/xIUHrXuGnDaC_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040893658-qyd0xn-large.jpg?c831450",
@@ -739,7 +726,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/neighbors-empty",
         "waveform_url": "http://w1.sndcdn.com/9M5H236veADX_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000036105757-6yteha-large.jpg?c831450",
@@ -753,7 +740,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/grass-widow-disappearing",
         "waveform_url": "http://w1.sndcdn.com/kRkmdgrgpwnd_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040889831-hkny4y-large.jpg?c831450",
@@ -767,7 +754,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/hillstomp-banjo-song",
         "waveform_url": "http://w1.sndcdn.com/BGcyrBQUJQRz_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040904550-yh9kll-large.jpg?c831450",
@@ -781,7 +768,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/genders-twin-peaks",
         "waveform_url": "http://w1.sndcdn.com/6bP2W1PpPx55_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040904980-f8dai3-large.jpg?c831450",
@@ -795,7 +782,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/the-hand-sometimes-livedemo",
         "waveform_url": "http://w1.sndcdn.com/nLZ6vl9tlXZw_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040898350-mxqjno-large.jpg?c831450",
@@ -809,7 +796,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/meth-house-party-band-mud-butt",
         "waveform_url": "http://w1.sndcdn.com/poZFeaTVeiZ5_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000042154379-0q5cxd-large.jpg?c831450",
@@ -823,7 +810,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/dark-swallows-golden-breather",
         "waveform_url": "http://w1.sndcdn.com/v2HpdKNkbNJw_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000039871780-pvlwon-large.jpg?c831450",
@@ -837,7 +824,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/quasi-repulsion",
         "waveform_url": "http://w1.sndcdn.com/MX0ddmBBYjLj_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040892958-nqacwi-large.jpg?c831450",
@@ -851,7 +838,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/stickers-fachina",
         "waveform_url": "http://w1.sndcdn.com/rFaAWyDfpM74_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040999497-9e9suo-large.jpg?c831450",
@@ -865,7 +852,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/gentleman-surfer-baenu",
         "waveform_url": "http://w1.sndcdn.com/MFpvuVEgCQCe_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040944876-zpwgl6-large.jpg?c831450",
@@ -879,7 +866,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/possum-livin-red-ball",
         "waveform_url": "http://w1.sndcdn.com/V6SsRLeyiSLh_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041050347-jj0xq9-large.jpg?c831450",
@@ -893,7 +880,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/terrible-buttons",
         "waveform_url": "http://w1.sndcdn.com/DCzOgIARFsTu_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000043525491-g8chry-large.jpg?c831450",
@@ -907,7 +894,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/baths-maximalist",
         "waveform_url": "http://w1.sndcdn.com/IuZKfYxBe2zq_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040943539-cevxtg-large.jpg?c831450",
@@ -921,7 +908,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/james-plane-wreck-fuckin-with",
         "waveform_url": "http://w1.sndcdn.com/5rhxpvoYgWv1_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040897788-1acqyt-large.jpg?c831450",
@@ -935,7 +922,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/phantahex-we-breathe-ice",
         "waveform_url": "http://w1.sndcdn.com/MVD0UgPNlweN_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040850588-y7zrem-large.jpg?c831450",
@@ -949,7 +936,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/brett-netson-snakes-preaching",
         "waveform_url": "http://w1.sndcdn.com/sRqZfihzdPcj_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041358774-68um9n-large.jpg?c831450",
@@ -963,7 +950,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/feature-freeze-parade",
         "waveform_url": "http://w1.sndcdn.com/nqpVb5fJat6Y_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000036104798-hxh14t-large.jpg?c831450",
@@ -977,7 +964,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/wooden-indian-burial-ground",
         "waveform_url": "http://w1.sndcdn.com/fFDbAFPbIskD_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040886606-lkcbi2-large.jpg?c831450",
@@ -991,7 +978,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/gem-state-deer-song",
         "waveform_url": "http://w1.sndcdn.com/JlHafHuf1pIZ_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040891382-whc56h-large.jpg?c831450",
@@ -1005,7 +992,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/dedicated-servers-dawn",
         "waveform_url": "http://w1.sndcdn.com/3hEvY4R01c0j_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040849421-1dchyv-large.jpg?c831450",
@@ -1019,7 +1006,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/thomas-paul-orchestra-flags-in",
         "waveform_url": "http://w1.sndcdn.com/ues3Jl9jKr64_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040844876-cqe70m-large.jpg?c831450",
@@ -1033,7 +1020,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/mickey-the-jump-folk-song",
         "waveform_url": "http://w1.sndcdn.com/uCc29hr7gRhK_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000039896679-celycp-large.jpg?c831450",
@@ -1047,7 +1034,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/boys-escape-plan",
         "waveform_url": "http://w1.sndcdn.com/TIHxqsJFocUr_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000042732382-ul0pvm-large.jpg?c831450",
@@ -1061,7 +1048,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/dauwd-could-it-be",
         "waveform_url": "http://w1.sndcdn.com/Uezlu6gbiDHm_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040903809-p97lqc-large.jpg?c831450",
@@ -1075,7 +1062,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/ugly-hussy-host",
         "waveform_url": "http://w1.sndcdn.com/SQl04q707x3Y_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040885274-b9zr7s-large.jpg?c831450",
@@ -1089,7 +1076,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/cerberus-rex-untitled",
         "waveform_url": "http://w1.sndcdn.com/4iie9ZVKhFby_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040989928-yd02g2-large.jpg?c831450",
@@ -1103,7 +1090,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/high-desert-band-taters-in-my",
         "waveform_url": "http://w1.sndcdn.com/jtOtBpoUKlky_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040851838-aptnck-large.jpg?c831450",
@@ -1117,7 +1104,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/ugly-valley-boys-yesterday",
         "waveform_url": "http://w1.sndcdn.com/ltri02yxQvxk_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041053300-bsmkvu-large.jpg?c831450",
@@ -1131,7 +1118,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/the-oneirics-living-in",
         "waveform_url": "http://w1.sndcdn.com/0hFuNM8LvOEl_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040882749-rggwb0-large.jpg?c831450",
@@ -1145,7 +1132,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/with-child-high-on-a-rocky",
         "waveform_url": "http://w1.sndcdn.com/O8vgPLPoWV7A_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040994574-u6un9q-large.jpg?c831450",
@@ -1159,7 +1146,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/grandma-kelsey-emptied-space",
         "waveform_url": "http://w1.sndcdn.com/l8jJlDibEpEz_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040851604-4rjp2c-large.jpg?c831450",
@@ -1173,7 +1160,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/a-seasonal-disguise-krug-s",
         "waveform_url": "http://w1.sndcdn.com/XKbMSHUxpV8r_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040960462-c1qar8-large.jpg?c831450",
@@ -1187,7 +1174,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/clarke-and-the-himselfs-cabin",
         "waveform_url": "http://w1.sndcdn.com/PBaQDcJp1eVz_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040900196-80pctn-large.jpg?c831450",
@@ -1201,7 +1188,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/the-jackalope-saints",
         "waveform_url": "http://w1.sndcdn.com/DGa1Bg5V9V6N_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040899569-5pb62o-large.jpg?c831450",
@@ -1215,7 +1202,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/sour-boy-bitter-girl-more",
         "waveform_url": "http://w1.sndcdn.com/HWdmZf8fT1zi_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040851295-xaghud-large.jpg?c831450",
@@ -1229,7 +1216,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/charles-engels-the-family",
         "waveform_url": "http://w1.sndcdn.com/6B1uTCraUYdU_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040848860-3347ap-large.jpg?c831450",
@@ -1243,7 +1230,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/deaf-kid-complete-control",
         "waveform_url": "http://w1.sndcdn.com/JaT0XXkmXp9o_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040992277-rkhfl0-large.jpg?c831450",
@@ -1257,7 +1244,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/inspired-school-of-astral",
         "waveform_url": "http://w1.sndcdn.com/3qtTg1aJAtFu_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041076739-3jr6yt-large.jpg?c831450",
@@ -1271,7 +1258,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/the-blaqk-family-band-bullet",
         "waveform_url": "http://w1.sndcdn.com/0oeqRJV4Swus_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041059248-5fxowy-large.jpg?c831450",
@@ -1285,7 +1272,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/polyrhythmics-bobo",
         "waveform_url": "http://w1.sndcdn.com/2jkGD3DIIG8C_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040883850-xxtxlr-large.jpg?c831450",
@@ -1299,7 +1286,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/jd-kindle-the-eastern-oregon",
         "waveform_url": "http://w1.sndcdn.com/0A5WWwmttrxA_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040904716-jnpnwf-large.jpg?c831450",
@@ -1313,7 +1300,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/scarf-brains",
         "waveform_url": "http://w1.sndcdn.com/bFMeNlYg2Kk4_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040852885-pxxqa6-large.jpg?c831450",
@@ -1327,7 +1314,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/uzala-the-reaping-1",
         "waveform_url": "http://w1.sndcdn.com/G4vEdvKW4imL_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000038762625-43qs08-large.jpg?c831450",
@@ -1341,7 +1328,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/shlohmo-places",
         "waveform_url": "http://w1.sndcdn.com/eEtTs1KZyPsh_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040895600-grwqts-large.jpg?c831450",
@@ -1355,7 +1342,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/hallowed-oak-all-of-the-time",
         "waveform_url": "http://w1.sndcdn.com/ChXgrNsptCua_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040968589-hrmo0e-large.jpg?c831450",
@@ -1369,7 +1356,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/alex-richards-band-high-time",
         "waveform_url": "http://w1.sndcdn.com/OCwEIhcj9bXh_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041455170-636ooa-large.jpg?c831450",
@@ -1383,7 +1370,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/1d-rush-limblah",
         "waveform_url": "http://w1.sndcdn.com/XA2n9I9iUQ6I_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040889384-npv401-large.jpg?c831450",
@@ -1397,7 +1384,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/first-borns-get-careful",
         "waveform_url": "http://w1.sndcdn.com/YM45CM3PE4Lh_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040846980-jbfroz-large.jpg?c831450",
@@ -1411,7 +1398,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/expo-70-trancending",
         "waveform_url": "http://w1.sndcdn.com/94tgwmdJiPS7_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041520153-uv86jx-large.jpg?c831450",
@@ -1425,7 +1412,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/le-fleur-borderland",
         "waveform_url": "http://w1.sndcdn.com/CzPuAZrpxqKi_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041234684-34vfjp-large.jpg?c831450",
@@ -1439,7 +1426,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/built-to-spill-stab-live",
         "waveform_url": "http://w1.sndcdn.com/gxREabn3jYet_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040994221-2q7ly2-large.jpg?c831450",
@@ -1453,7 +1440,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/and-and-and-old-folks-home",
         "waveform_url": "http://w1.sndcdn.com/4LUGfMkMXjHI_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040899774-zp8z3b-large.jpg?c831450",
@@ -1467,7 +1454,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/ditch-tiger-is-it-hot-in-here",
         "waveform_url": "http://w1.sndcdn.com/I90DQoagYc0D_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041191957-m5r3cl-large.jpg?c831450",
@@ -1481,7 +1468,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/stoneseed-voice",
         "waveform_url": "http://w1.sndcdn.com/2Nki5uUvqlxk_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040887099-rvhd4x-large.jpg?c831450",
@@ -1495,7 +1482,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/the-quick-easy-boys-make-it",
         "waveform_url": "http://w1.sndcdn.com/6UpbBOeRAL3D_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040943844-szi3dz-large.jpg?c831450",
@@ -1509,7 +1496,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/sleepy-seeds-anxious",
         "waveform_url": "http://w1.sndcdn.com/UKbYPMSOOzhz_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040875496-7aq1ae-large.jpg?c831450",
@@ -1523,7 +1510,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/minot-the-ringing-silence",
         "waveform_url": "http://w1.sndcdn.com/VvobUfRC8DNJ_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000043693892-zpg5u4-large.jpg?c831450",
@@ -1537,7 +1524,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/live-karaoke-w-karaoke-from",
         "waveform_url": "http://w1.sndcdn.com/G1Ido0J2eGrp_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040898011-kq2qc6-large.jpg?c831450",
@@ -1551,7 +1538,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/jumping-sharks-passing-ships",
         "waveform_url": "http://w1.sndcdn.com/zNLEHZ3j8k2P_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040906909-s4jmm7-large.jpg?c831450",
@@ -1565,7 +1552,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/new-transit-help-me-hold-onto",
         "waveform_url": "http://w1.sndcdn.com/QGGtojiqNPoc_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040986668-kkovqf-large.jpg?c831450",
@@ -1579,7 +1566,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/the-blank-tapes-im-back",
         "waveform_url": "http://w1.sndcdn.com/jSPAZH3wc9l2_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040846607-029pzo-large.jpg?c831450",
@@ -1593,7 +1580,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/little-miss-the-no-names-dirty",
         "waveform_url": "http://w1.sndcdn.com/Ibz0UzNTHV8X_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040848018-7bllby-large.jpg?c831450",
@@ -1607,7 +1594,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/hummingbird-of-death-nothing-s",
         "waveform_url": "http://w1.sndcdn.com/nHJPXMkXZ3bM_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040894935-404zuj-large.jpg?c831450",
@@ -1621,7 +1608,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/the-juke-daddys-curley-phries",
         "waveform_url": "http://w1.sndcdn.com/sMuEQFPXTzdx_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040882025-qebahq-large.jpg?c831450",
@@ -1635,7 +1622,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/talkative-where-does-the",
         "waveform_url": "http://w1.sndcdn.com/WQ8xXj6ZNuBv_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040890435-7xzxnv-large.jpg?c831450",
@@ -1649,7 +1636,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/don-t-stop-please-my-booty-is",
         "waveform_url": "http://w1.sndcdn.com/LTOgCPAuWmXQ_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000043694042-mp3tkj-large.jpg?c831450",
@@ -1663,7 +1650,7 @@
         "permalink_url": "http://soundcloud.com/treefort-music-fest/live",
         "waveform_url": "http://w1.sndcdn.com/uygg4GHTiEX9_m.png",
         "jDate": "",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000037434844-5p2ogo-t500x500.jpg?6c55c25",
@@ -1677,7 +1664,7 @@
         "artist": "Deathfix",
         "song": "Transmission",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000028469201-6vwdrl-t500x500.jpg?6c55c25",
@@ -1691,7 +1678,7 @@
         "artist": "Useless Eaters",
         "song": "Feel Nothing",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000034543220-0ftxhj-t500x500.jpg?6c55c25",
@@ -1705,7 +1692,7 @@
         "artist": "Blackcloud",
         "song": "Experience",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040406582-xyp9w7-t500x500.jpg?6c55c25",
@@ -1719,7 +1706,7 @@
         "artist": "Arthur Maddox",
         "song": "Fade to Black",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000005308334-1ajzvc-t500x500.jpg?6c55c25",
@@ -1733,7 +1720,7 @@
         "artist": "ssssnake",
         "song": "Wolf and the Bear",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000038437844-lv12w5-t500x500.jpg?6c55c25",
@@ -1747,7 +1734,7 @@
         "artist": "Youth Lagoon",
         "song": "Dropla",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000027326250-n8myos-t500x500.jpg?6c55c25",
@@ -1761,7 +1748,7 @@
         "artist": "Henhouse Prowlers",
         "song": "Simplify",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000003083260-uwx1ni-t500x500.jpg?6c55c25",
@@ -1775,7 +1762,7 @@
         "artist": "Ned Evett & Triple Double",
         "song": "Transcendental Floss - Live in Paris",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040439875-c83s7a-t500x500.jpg?6c55c25",
@@ -1789,7 +1776,7 @@
         "artist": "Emily Tipton Band",
         "song": "Stop and Breathe",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000001003739-1tav90-t500x500.jpg?6c55c25",
@@ -1803,7 +1790,7 @@
         "artist": "Ben Fisher",
         "song": "For Hiram M. Chittenden",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000029832023-3a5jow-t500x500.jpg?6c55c25",
@@ -1817,7 +1804,7 @@
         "artist": "AudioAvi8tor",
         "song": "Going Fishing",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000025299797-j6muka-t500x500.jpg?6c55c25",
@@ -1831,7 +1818,7 @@
         "artist": "Brother Ali ",
         "song": "Stop The Press",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000026903259-u53vcn-t500x500.jpg?6c55c25",
@@ -1845,7 +1832,7 @@
         "artist": "Dark Time Sunshine",
         "song": "Hosanna In The Highest ft. Ceschi",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000020241849-nxhe5q-t500x500.jpg?6c55c25",
@@ -1859,7 +1846,7 @@
         "artist": "Exit Prose",
         "song": "Dreamer",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2013/02/Grubbplay.jpg",
@@ -1873,7 +1860,7 @@
         "artist": "Storie Grubb and the Holy Wars",
         "song": "time",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "",
@@ -1887,7 +1874,7 @@
         "artist": "Edmund Wayne",
         "song": "To The Bugs on My Ceiling (with River Giant)",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000025325322-bmot1c-t500x500.jpg?6c55c25",
@@ -1901,7 +1888,7 @@
         "artist": "The Awful Truth",
         "song": "Summit",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000009138718-upaqld-t500x500.jpg?6c55c25",
@@ -1915,7 +1902,7 @@
         "artist": "Tuck Nelson",
         "song": "From One of My Dreams",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000005552334-6bim1s-t500x500.jpg?6c55c25",
@@ -1929,7 +1916,7 @@
         "artist": "Teens",
         "song": "White Devils",
         "day": "Monday, March 25",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000016787661-85p54m-t500x500.jpg?6c55c25",
@@ -1943,7 +1930,7 @@
         "artist": "In The Whale",
         "song": "Woman",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000033999177-7fhb9c-t500x500.jpg?6c55c25",
@@ -1957,7 +1944,7 @@
         "artist": "School Knights",
         "song": "Powerslut",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000039291082-f0dmd9-t500x500.jpg?6c55c25",
@@ -1971,7 +1958,7 @@
         "artist": "lucid aisle",
         "song": "Aeon Light",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000037503920-ba3sh6-t500x500.jpg?6c55c25",
@@ -1985,7 +1972,7 @@
         "artist": "Camper Van Beethoven",
         "song": "Someday Our Love Will Sell Us Out",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000036267637-dicxzo-t500x500.jpg?6c55c25",
@@ -1999,7 +1986,7 @@
         "artist": "Shy Girls",
         "song": "Under Attack",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2013/02/Customary.jpg",
@@ -2013,7 +2000,7 @@
         "artist": "Customary",
         "song": "Still Yours",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000037436881-iq0e4g-t500x500.jpg?6c55c25",
@@ -2027,7 +2014,7 @@
         "artist": "The Grizzled Mighty",
         "song": "Stuck in My Head",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000041043268-dq7o95-t500x500.jpg?6c55c25",
@@ -2041,7 +2028,7 @@
         "artist": "Edmond Dantes",
         "song": "Decade",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000017420459-i0712p-t500x500.jpg?6c55c25",
@@ -2055,7 +2042,7 @@
         "artist": "Social Studies",
         "song": "Holler Boys",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000034999032-uivfsk-t500x500.jpg?6c55c25",
@@ -2069,7 +2056,7 @@
         "artist": "Cloud Splitter",
         "song": "Epic Fail",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000018356020-hfpdhd-t500x500.jpg?6c55c25",
@@ -2083,7 +2070,7 @@
         "artist": "Beji",
         "song": "Hope and Tragedy",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040800478-ang30o-t500x500.jpg?6c55c25",
@@ -2097,7 +2084,7 @@
         "artist": "Innocent Man",
         "song": "15",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000013261539-t4lzns-t500x500.jpg?6c55c25",
@@ -2111,7 +2098,7 @@
         "artist": "Forrest Day",
         "song": "Sleepwalk",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040268875-isoy0u-t500x500.jpg?6c55c25",
@@ -2125,7 +2112,7 @@
         "artist": "Campfire Ok",
         "song": "When You Have Arrived",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2013/02/gregoryrawlins.jpg",
@@ -2139,7 +2126,7 @@
         "artist": "Gregory Rawlins",
         "song": "June / July",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000026822852-gkelv2-t500x500.jpg?6c55c25",
@@ -2153,7 +2140,7 @@
         "artist": "Whitewater Ramble",
         "song": "When I'm Gone",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000027436806-8cjqk3-t500x500.jpg?6c55c25",
@@ -2167,7 +2154,7 @@
         "artist": "The Heligoats",
         "song": "Boil Over",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040738141-1rpxia-t500x500.jpg?6c55c25",
@@ -2181,7 +2168,7 @@
         "artist": "K Flay",
         "song": "Fvcking Crazy (ft. Eligh & Grieves)",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040747724-uq0gc5-t500x500.jpg?6c55c25",
@@ -2195,7 +2182,7 @@
         "artist": "REFLEKTION",
         "song": "Zebra Steppin (with Freddy Sin)",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000038075467-lt97g5-t500x500.jpg?6c55c25",
@@ -2209,7 +2196,7 @@
         "artist": "Rubicon 7",
         "song": "Sync This",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000029673830-199j23-t500x500.jpg?6c55c25",
@@ -2223,7 +2210,7 @@
         "artist": "ᐳ Ξ Ξ V Ξ Λ Ц Ҳ",
         "song": "Make Me Feel (Original Mix)",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000038093690-j0e3uv-t500x500.jpg?1682a26",
@@ -2237,7 +2224,7 @@
         "artist": "Psycache",
         "song": "GiTS 87 ViolaLust",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000034150674-f15urd-t500x500.jpg?1682a26",
@@ -2251,7 +2238,7 @@
         "artist": "Owlright",
         "song": "Made for You",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000024239644-e5uef1-t500x500.jpg?1682a26",
@@ -2265,7 +2252,7 @@
         "artist": "Truckasauras",
         "song": "Yoked",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000003577975-9qpip1-t500x500.jpg?1682a26",
@@ -2279,7 +2266,7 @@
         "artist": "Slam Dunk",
         "song": "It's Only Fun",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000030593745-0qfdr8-t500x500.jpg?1682a26",
@@ -2293,7 +2280,7 @@
         "artist": "Gayze",
         "song": "All Night",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000014796771-y6ac7w-t500x500.jpg?1682a26",
@@ -2307,7 +2294,7 @@
         "artist": "SW/MM/NG",
         "song": "Some Dreams Come True",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000030425600-lab92o-t500x500.jpg?1682a26",
@@ -2321,7 +2308,7 @@
         "artist": "South of France",
         "song": "Lost in the Morning",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000030098491-r5xqem-t500x500.jpg?1682a26",
@@ -2335,7 +2322,7 @@
         "artist": "A.M. Pleasure Assassins",
         "song": "Blood Oranges",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2013/02/MiloDuke.jpg",
@@ -2349,7 +2336,7 @@
         "artist": "Milo Duke",
         "song": "Practical Physics II: Justification",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000022813531-rzjy5w-t500x500.jpg?1682a26",
@@ -2363,7 +2350,7 @@
         "artist": "Tea Cozies",
         "song": "Muchos Dracula",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2013/02/The_We_Shared_Milk.jpg",
@@ -2377,7 +2364,7 @@
         "artist": "The We Shared Milk",
         "song": "The We Shared Milk - Moonlit",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040141811-dunu0t-t500x500.jpg?1682a26",
@@ -2391,7 +2378,7 @@
         "artist": "The Kitchen",
         "song": "Bill Murray",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040746874-0e1mwr-t500x500.jpg?1682a26",
@@ -2405,7 +2392,7 @@
         "artist": "Rubedo",
         "song": "40 Day And Night",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000026786537-1miwrr-t500x500.jpg?1682a26",
@@ -2419,7 +2406,7 @@
         "artist": "Ash Reiter",
         "song": "I've Got Something to Laugh About",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000002445260-vc1ht2-t500x500.jpg?1682a26",
@@ -2433,7 +2420,7 @@
         "artist": "Pony Village",
         "song": "Wildwood Drive",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000032444815-tu9mvd-t500x500.jpg?1682a26",
@@ -2447,7 +2434,7 @@
         "artist": "The Hoot Hoots",
         "song": "Home",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000037938959-0r1w7w-t500x500.jpg?1682a26",
@@ -2461,7 +2448,7 @@
         "artist": "Y La Bamba",
         "song": "Oh February",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000015645542-fanpg7-t500x500.jpg?1682a26",
@@ -2475,7 +2462,7 @@
         "artist": "Wymond Miles",
         "song": "Hidden Things Are Asking You To Find Them",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000033867978-qeu8jg-t500x500.jpg?1682a26",
@@ -2489,7 +2476,7 @@
         "artist": "Junior Rocket Scientist",
         "song": "Blue Time",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000025574135-hspiqp-t500x500.jpg?1682a26",
@@ -2503,7 +2490,7 @@
         "artist": "Little Ruckus",
         "song": "First Love (ft. Captain Picard)",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000003182537-4txdxs-t500x500.jpg?1682a26",
@@ -2517,7 +2504,7 @@
         "artist": "ManCub",
         "song": "Quite Possible",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000017348522-96hsix-t500x500.jpg?1682a26",
@@ -2531,7 +2518,7 @@
         "artist": "Shades",
         "song": "Morning After",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000037500200-tv3zy8-t500x500.jpg?1682a26",
@@ -2545,7 +2532,7 @@
         "artist": "The Dirty Moogs",
         "song": "Side Scroller (Boss Fight Remix)",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000027422268-fr6v05-t500x500.jpg?1682a26",
@@ -2559,7 +2546,7 @@
         "artist": "Sick Kids XOXO",
         "song": "What Happens Here (Dead Hipster Remix)",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000003163974-3d2zwj-t500x500.jpg?1682a26",
@@ -2573,7 +2560,7 @@
         "artist": "Learning Team",
         "song": "MLK",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000033517223-mtfyyp-t500x500.jpg?1682a26",
@@ -2587,7 +2574,7 @@
         "artist": "Lionsweb",
         "song": "Worms",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000035592156-wsctpi-t500x500.jpg?1682a26",
@@ -2601,7 +2588,7 @@
         "artist": "YACHT",
         "song": "Second Summer",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000023682525-sqkcxy-t500x500.jpg?1682a26",
@@ -2615,7 +2602,7 @@
         "artist": "The Walkmen",
         "song": "Dance with Your Partner",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2013/02/Holiday_Friends.jpg",
@@ -2629,7 +2616,7 @@
         "artist": "Holiday Friends",
         "song": "Astral Observations",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040709287-shv55z-t500x500.jpg?1682a26",
@@ -2643,7 +2630,7 @@
         "artist": "The 4onthefloor",
         "song": "King of the Jungle",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000018725276-o2kpcl-t500x500.jpg?1682a26",
@@ -2657,7 +2644,7 @@
         "artist": "Bonefish Sam & Orchestra",
         "song": "Cheap Gear Jam",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000019511015-kzmwtq-t500x500.jpg?1682a26",
@@ -2671,7 +2658,7 @@
         "artist": "Aaron Mark Brown",
         "song": "Old People",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000031539427-qd3wab-t500x500.jpg?1682a26",
@@ -2685,7 +2672,7 @@
         "artist": "Old Death Whisper",
         "song": "Dead Outlaw",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000019014659-v240ew-t500x500.jpg?1682a26",
@@ -2699,7 +2686,7 @@
         "artist": "Hillfolk Noir",
         "song": "Parchman Farm Blues",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000026112629-9orlk0-t500x500.jpg?1682a26",
@@ -2713,7 +2700,7 @@
         "artist": "Jeff Crosby& The Refugees",
         "song": "This Old Town",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040737653-j0s59e-t500x500.jpg?1682a26",
@@ -2727,7 +2714,7 @@
         "artist": "Matt Hopper",
         "song": "Entertainer",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000013562535-ltgs1x-t500x500.jpg?1682a26",
@@ -2741,7 +2728,7 @@
         "artist": "q p",
         "song": "qp - Psychgeist",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000036222908-0yxs1n-t500x500.jpg?1682a26",
@@ -2755,7 +2742,7 @@
         "artist": "Slow Magic",
         "song": "Your Heart Beats",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000034010249-uun4lp-t500x500.jpg?1682a26",
@@ -2769,7 +2756,7 @@
         "artist": "rumtum",
         "song": "Birdeyes",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000022917759-x7ix1p-t500x500.jpg?1682a26",
@@ -2783,7 +2770,7 @@
         "artist": "Gold Panda",
         "song": "Mountain",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000032500035-1cmbu6-t500x500.jpg?1682a26",
@@ -2797,7 +2784,7 @@
         "artist": "Flashlights",
         "song": "Scarves",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000033687812-tnovz3-t500x500.jpg?1682a26",
@@ -2811,7 +2798,7 @@
         "artist": "Lamont Kohner",
         "song": "WD1",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000031988924-m55qp7-t500x500.jpg?1682a26",
@@ -2825,7 +2812,7 @@
         "artist": "Boy Eats Drum Machine",
         "song": "The Battle",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000014511004-plkkf7-t500x500.jpg?1682a26",
@@ -2839,7 +2826,7 @@
         "artist": "Sun Angle",
         "song": "Timesnakes",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2013/02/RedHandsBlackFeet.jpg",
@@ -2853,7 +2840,7 @@
         "artist": "Red Hands Black Feet",
         "song": "This Is What Happens when You Befriend a Stranger in the Alps",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2013/02/hey_v_kay.jpg",
@@ -2867,7 +2854,7 @@
         "artist": "Hey V Kay",
         "song": "Stylophone",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040763474-pctbk7-t500x500.jpg?1682a26",
@@ -2881,7 +2868,7 @@
         "artist": "Rollersnakes",
         "song": "RLLRSNKS",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2013/02/Sword.jpg",
@@ -2895,7 +2882,7 @@
         "artist": "Sword of a Bad Speller",
         "song": "Ganngsta's Gotta Do",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040885274-b9zr7s-t500x500.jpg?1682a26",
@@ -2909,7 +2896,7 @@
         "artist": "Cerberus Rex",
         "song": "untitled",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040040807-h9ud93-t500x500.jpg?1682a26",
@@ -2923,7 +2910,7 @@
         "artist": "Hedtriip",
         "song": "Alone",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000010216253-4angdu-t500x500.jpg?1682a26",
@@ -2937,7 +2924,7 @@
         "artist": "Typhoon",
         "song": "The Honest Truth",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2013/02/AAN.jpg",
@@ -2951,7 +2938,7 @@
         "artist": "AAN",
         "song": "Mystery Life",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000014744940-fge33a-t500x500.jpg?1682a26",
@@ -2965,7 +2952,7 @@
         "artist": "Kithkin",
         "song": "Ampersand",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000017603935-00v4o3-t500x500.jpg?1682a26",
@@ -2979,7 +2966,7 @@
         "artist": "Deep Sea Diver",
         "song": "You Go Running",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000010163194-wok1ny-large.jpg?de05208",
@@ -2994,7 +2981,7 @@
         "artist": "Revolt Revolt",
         "song": "Hell has its Roads",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2013/02/Nick_Jaina.jpg",
@@ -3009,7 +2996,7 @@
         "artist": "Nick Jaina",
         "song": "Strawberry Man",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000030219386-6icf6w-t500x500.jpg?de05208",
@@ -3024,7 +3011,7 @@
         "artist": "Red Jacket Mine",
         "song": "Amy",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000017942589-kcbnvv-t500x500.jpg?de05208",
@@ -3039,7 +3026,7 @@
         "artist": "Eternal Fair",
         "song": "Billy Keep Your Head Up",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2013/02/Kris_Doty.jpg",
@@ -3054,7 +3041,7 @@
         "artist": "Kris Doty",
         "song": "Thumb",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000024637005-yql2kr-t500x500.jpg?de05208",
@@ -3069,7 +3056,7 @@
         "artist": "B. Dolan",
         "song": "King Bee from House of Bees Vol. 2",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000025340408-fbr8w0-t500x500.jpg?de05208",
@@ -3084,7 +3071,7 @@
         "artist": "Sapient",
         "song": "Universal Diorama Redux",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000040412692-xe6py6-t500x500.jpg?de05208",
@@ -3099,7 +3086,7 @@
         "artist": "gLORIOUS pOP",
         "song": "dIP nOW gLORIOUS pOP",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000037043002-2dvw20-t500x500.jpg?de05208",
@@ -3114,7 +3101,7 @@
         "artist": "Psychic Rites",
         "song": "Taking Hold Our Youth",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000029924867-imh519-t500x500.jpg?de05208",
@@ -3129,7 +3116,7 @@
         "artist": "Nehemiah St-Danger",
         "song": "Invocation of the Old Come On Brother, Now",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000029503833-kblmnn-t500x500.jpg?de05208",
@@ -3144,7 +3131,7 @@
         "artist": "Hollow Wood",
         "song": "Little Bird",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000007101466-jve9rb-t500x500.jpg?060de79",
@@ -3160,7 +3147,7 @@
         "artist": "The Terror Pigeon Dance Revolt!",
         "song": "Snakebites",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000021356340-ff3zc7-t500x500.jpg?060de79",
@@ -3176,7 +3163,7 @@
         "artist": "Lenguas Largas",
         "song": "Lost Twin",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000004787187-r2f6vy-t500x500.jpg?060de79",
@@ -3192,7 +3179,7 @@
         "artist": "The Mallard",
         "song": "You Got the Critics",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000028103962-mcjtot-t500x500.jpg?060de79",
@@ -3208,7 +3195,7 @@
         "artist": "El Ten Eleven",
         "song": "Yellow Bridges",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2012/12/Built_to_Spill.jpg",
@@ -3224,7 +3211,7 @@
         "artist": "Built to Spill",
         "song": "Hindsight",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000007548083-rnn3e0-t500x500.jpg?060de79",
@@ -3240,7 +3227,7 @@
         "artist": "Lynden Williams",
         "song": "Tropics",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000019466533-czv1v6-t500x500.jpg?060de79",
@@ -3256,7 +3243,7 @@
         "artist": "Burnt Ones",
         "song": "Meet the Golden One",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://treefortmusicfest.com/wp-content/uploads/2013/01/rose_windows.jpg",
@@ -3272,7 +3259,7 @@
         "artist": "Rose Windows",
         "song": "War Time Lovers",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000020042636-ymm32r-t500x500.jpg?060de79",
@@ -3288,7 +3275,7 @@
         "artist": "Tartufi",
         "song": "Edgar Lovelace",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000029245467-09ilmt-t500x500.jpg?060de79",
@@ -3304,7 +3291,7 @@
         "artist": "Blasted Canyons",
         "song": "Holy Geometry",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000025316474-8kas6u-t500x500.jpg?060de79",
@@ -3320,7 +3307,7 @@
         "artist": "Natasha Kmeto",
         "song": "Starts",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000008510797-5qudju-t500x500.jpg?060de79",
@@ -3336,7 +3323,7 @@
         "artist": "The Thermals",
         "song": "Test Pattern",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000037802766-sg1qcs-t500x500.jpg?060de79",
@@ -3352,7 +3339,7 @@
         "artist": "Shlohmo",
         "song": "Wen Uuu",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000014193381-a0l6z3-t500x500.jpg?060de79",
@@ -3367,7 +3354,7 @@
         "artist": "Pony Time",
         "song": "Tacocat Scraps",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000031813663-2pk1mu-t500x500.jpg?060de79",
@@ -3382,7 +3369,7 @@
         "artist": "Thollem Electric",
         "song": "Pay Attention To The People",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000027647846-vuqzue-t500x500.jpg?060de79",
@@ -3397,7 +3384,7 @@
         "artist": "Kris Orlowski",
         "song": "Mountains",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "artist_img/thebrotherscomatose.jpg",
@@ -3412,7 +3399,7 @@
         "artist": "The Brothers Comatose",
         "song": "Alley of the Oaks",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000034810870-k70oys-t500x500.jpg?060de79",
@@ -3427,7 +3414,7 @@
         "artist": "Finn Riggins",
         "song": "Benchwarmers",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000027922905-xtgkmh-t500x500.jpg?060de79",
@@ -3442,7 +3429,7 @@
         "artist": "Menace Ruine",
         "song": "Salamandra",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000017985781-ogkysx-t500x500.jpg?060de79",
@@ -3457,7 +3444,7 @@
         "artist": "Earth",
         "song": "Sigil of Brass",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/artworks-000027436806-8cjqk3-t500x500.jpg?0c1a674",
@@ -3473,7 +3460,7 @@
         "artist": "The Heligoats",
         "song": "Boil Over",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/avatars-000028677004-k2jxnh-t500x500.jpg?0c1a674",
@@ -3488,7 +3475,7 @@
         "artist": "Wampire",
         "song": "Magic Light",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/artworks-000022703732-9dnt23-t500x500.jpg?0c1a674",
@@ -3504,7 +3491,7 @@
         "artist": "Sublime Frequencies",
         "song": "tal riabak arzali",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/artworks-000018261816-m6eq0m-t500x500.jpg?0c1a674",
@@ -3520,7 +3507,7 @@
         "artist": "Sublime Frequencies",
         "song": "folk and Pop Sounds of Sumatra vol.2",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "artist_img/thepharmacy.jpg",
@@ -3536,7 +3523,7 @@
         "artist": "The Pharmacy",
         "song": "At The Top Of The Ivory Stairs",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/artworks-000023135856-35phl1-t500x500.jpg?0c1a674",
@@ -3552,7 +3539,7 @@
         "artist": "SISU",
         "song": "Two Thousand Hands",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "artist_img/lake.jpg",
@@ -3567,7 +3554,7 @@
         "artist": "Lake",
         "song": "Roger Miller",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "artist_img/pickwick.jpg",
@@ -3583,7 +3570,7 @@
         "artist": "Pickwick",
         "song": "The Round (Live at KEXP)",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/artworks-000008382538-px43fe-t500x500.jpg?0c1a674",
@@ -3598,7 +3585,7 @@
         "artist": "Digital Leather",
         "song": "Sea of Hate",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/artworks-000032314232-51cvaj-t500x500.jpg?0c1a674",
@@ -3614,7 +3601,7 @@
         "artist": "Naomi Punk",
         "song": "The Spell",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/artworks-000026081342-it5ucl-t500x500.jpg?0c1a674",
@@ -3630,7 +3617,7 @@
         "artist": "Emily Wells",
         "song": "Mama\"s Gonna Give You Love",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "artist_img/badweathercalifornia.jpg",
@@ -3646,7 +3633,7 @@
         "artist": "Bad Weather California",
         "song": "Let it Shine",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/artworks-000037785501-2xooht-t500x500.jpg?0c1a674",
@@ -3662,7 +3649,7 @@
         "artist": "Widowspeak",
         "song": "Thick as Thieves",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/avatars-000002301565-zmliib-t500x500.jpg?0c1a674",
@@ -3678,7 +3665,7 @@
         "artist": "THEESatisfaction ",
         "song": "QueenS (The Internet Remix)",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/artworks-000027368000-1eyg01-t500x500.jpg?0c1a674",
@@ -3694,7 +3681,7 @@
         "artist": "Delicate Steve",
         "song": "Afria Talks To You",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/artworks-000026377237-yza6bd-t500x500.jpg?0c1a674",
@@ -3710,7 +3697,7 @@
         "artist": "Dan Deacon",
         "song": "True Thrush",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/artworks-000029351337-xzx3o0-t500x500.jpg?0c1a674",
@@ -3725,7 +3712,7 @@
         "artist": "Sage Francis",
         "song": "Smoke and Mirrors",
         "day": "Friday, March 22",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "https://i1.sndcdn.com/artworks-000022788737-pqk3or-t500x500.jpg?0c1a674",
@@ -3741,7 +3728,7 @@
         "artist": "Animal Collective",
         "song": "Honeycomb",
         "day": "Sunday, March 24",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000019638473-otdzln-t500x500.jpg?89afbb5",
@@ -3757,7 +3744,7 @@
         "artist": "Radiation City",
         "song": "Hide From The Night",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000030906927-akvvh1-t500x500.jpg?89afbb5",
@@ -3772,7 +3759,7 @@
         "artist": "Unknown Mortal Orchestra",
         "song": "Swim & Sleep (Like a Shark)",
         "day": "Thursday, March 21",
-        "saved": false
+        "saved": false, "active": true
     },
     {
         "artwork_url": "http://i1.sndcdn.com/artworks-000035448777-jnfmsa-t500x500.jpg?89afbb5",
@@ -3788,6 +3775,6 @@
         "artist": "French Horn Rebellion",
         "song": "Cold Enough Ft. Jody Watley",
         "day": "Saturday, March 23",
-        "saved": false
+        "saved": false, "active": true
     }
 ]

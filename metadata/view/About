@@ -1,0 +1,251 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "About",
+        "scrollable": [
+            "{",
+            "    direction: 'vertical',",
+            "    directionLock: true",
+            "}"
+        ]
+    },
+    "configAlternates": {
+        "scrollable": "object"
+    },
+    "designerId": "91dd865e-9db6-408b-990a-3501dcfe8669",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "3a50c064-d476-40ae-8eca-e7b9ba7ba424",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "about"
+                        ],
+                        "html": "<b>App Developer:</b><br/>Phil Merrell",
+                        "padding": "10 10 5 10"
+                    },
+                    "designerId": "f388c91d-5f1d-434d-bec8-1f87173a6d15"
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "padding": "5 10 10 10",
+                        "layout": "hbox"
+                    },
+                    "designerId": "9ceaf162-ebd2-42b5-9a4c-f787eac408c9",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": null,
+                                "html": "<img src=\"images/twitter.png\" height=\"20px\" />",
+                                "itemId": "philTwitter",
+                                "ui": "decline",
+                                "width": 50,
+                                "text": ""
+                            },
+                            "designerId": "2f96b858-b21d-4073-b1dd-b6558297c440"
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<img src=\"images/globe.png\" height=\"20px\" />",
+                                "itemId": "philWeb",
+                                "margin": "0 0 0 10",
+                                "ui": "decline",
+                                "width": 50,
+                                "text": ""
+                            },
+                            "designerId": "1085a2cd-9891-459b-9cf0-104527958538"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "7f33175a-108b-4752-9e3a-18dabbcf8639",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "about"
+                        ],
+                        "html": "<b>Art:</b><br/>James Lloyd",
+                        "padding": 10
+                    },
+                    "designerId": "2c831dc6-2a5d-431e-9a94-076d977d63c3"
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "padding": "5 10 10 10",
+                        "layout": "hbox"
+                    },
+                    "designerId": "705e753f-cf2e-46af-b739-d7777bda89a9",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": null,
+                                "html": "<img src=\"images/tumblr.png\" height=\"20px\" />",
+                                "itemId": "jamesTumblr",
+                                "ui": "decline",
+                                "width": 50,
+                                "text": ""
+                            },
+                            "designerId": "fcfbc588-91ed-45fc-be33-6c1f86fd9142"
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<img src=\"images/globe.png\" height=\"20px\" />",
+                                "itemId": "jamesWeb",
+                                "margin": "0 0 0 10",
+                                "ui": "decline",
+                                "width": 50,
+                                "text": ""
+                            },
+                            "designerId": "7e295979-8c0b-41b0-9830-06407c4d26b8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "2be020be-73d4-42da-9ee1-6d520065c9c0",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "about"
+                        ],
+                        "html": "<b>Animated Gifs:</b><br/> Gifriends",
+                        "padding": 10
+                    },
+                    "designerId": "ef817be8-1988-4ec2-9514-cc36abcb4709"
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "padding": "5 10 10 10",
+                        "layout": "hbox"
+                    },
+                    "designerId": "0c5200e8-fef5-4093-a518-ee2069ca4ae5",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": null,
+                                "html": "<img src=\"images/twitter.png\" height=\"20px\" />",
+                                "itemId": "gifTwitter",
+                                "ui": "decline",
+                                "width": 50,
+                                "text": ""
+                            },
+                            "designerId": "890f09a4-bd75-425a-b9d4-b020450332e5"
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<img src=\"images/globe.png\" height=\"20px\" />",
+                                "itemId": "gifWeb",
+                                "margin": "0 0 0 10",
+                                "ui": "decline",
+                                "width": 50,
+                                "text": ""
+                            },
+                            "designerId": "a1e19e54-d801-458f-be37-e058cd397ca0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

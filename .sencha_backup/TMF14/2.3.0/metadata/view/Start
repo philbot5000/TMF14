@@ -1,0 +1,42 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "html": null,
+        "designer|userClassName": "Start",
+        "designer|userAlias": "start",
+        "layout": "vbox",
+        "scrollable": true
+    },
+    "designerId": "5e9d8f45-d517-4a28-9f26-5c649f12e268",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "html": "<img src=\"images/logo_letters.jpg\" width=\"100%\" />"
+            },
+            "designerId": "c66e0e4b-12ff-4f79-ab64-ae6f9c6a87fa"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "html": "<img src=\"images/start1.gif\" width=\"100%\" /><img src=\"images/start2.gif\" width=\"100%\" />"
+            },
+            "designerId": "23515d72-6dc7-496d-8b2b-82255d91a43b"
+        }
+    ]
+}

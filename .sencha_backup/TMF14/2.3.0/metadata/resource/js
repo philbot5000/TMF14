@@ -1,0 +1,13 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "js",
+        "url": "src/soundmanager2-nodebug-jsmin.js"
+    },
+    "designerId": "dcddf16d-0107-4eba-8d52-51dc0b32434f"
+}

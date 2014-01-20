@@ -1,0 +1,125 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "orangeList"
+        ],
+        "contentEl": null,
+        "itemId": "Day1",
+        "designer|userClassName": "Day1",
+        "designer|userAlias": null,
+        "autoDestroy": null,
+        "scrollable": [
+            "{",
+            "    directionLock: true,",
+            "    direction: 'vertical'",
+            "}"
+        ],
+        "disableSelection": false,
+        "store": "thursdayArtists",
+        "disclosureProperty": "saved",
+        "grouped": true,
+        "onItemDisclosure": true
+    },
+    "configAlternates": {
+        "scrollable": "object"
+    },
+    "designerId": "18708545-dd62-4613-a8c5-2f83140f5186",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "scrollDock": "top",
+                "docked": "top",
+                "html": "<img src=\"images/list1.jpg\" width=\"100%\" />",
+                "itemId": "listImage"
+            },
+            "designerId": "f5c72756-68c4-4374-b32c-4697dd0e2f7e",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "scrollDock",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    "<tpl if=\"saved == true\">",
+                    "    <div><span style=\"font-size: 10px;\">{time}</span> {artist}</div>",
+                    "<tpl else>",
+                    "\t<div><span style=\"font-size: 10px;\">{time}</span> {artist}</div>",
+                    "</tpl>"
+                ],
+                "designer|displayName": "itemTpl"
+            },
+            "designerId": "f3bb09e7-1ec2-4e0c-84da-c7a33277d1d3"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "center",
+                "bottom": 0,
+                "docked": "top",
+                "height": 50,
+                "hidden": null,
+                "html": null,
+                "itemId": "thursdayListIndicator",
+                "padding": 5,
+                "style": "z-index: 9999 !important; position: absolute; color: #fff; background: rgba(0,0,0, 0.6);",
+                "width": "100%",
+                "zIndex": null,
+                "layout": "hbox"
+            },
+            "designerId": "ae34818c-4770-4235-be3d-825a6d64c38a",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "<img src=\"img/badge.png\" height=\"40px\" /> "
+                    },
+                    "designerId": "7ceb7359-efea-4026-822a-85c244b72a4c"
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "<span style=\"margin-top: 10px !important; font-size: 1.3em;\">Thursday, March 20</span>"
+                    },
+                    "designerId": "4bbce6c0-bc18-425f-9564-879dd786e9b0"
+                }
+            ]
+        }
+    ]
+}

@@ -47,6 +47,7 @@
                     "var savedIndex = store.findExact('track_id', artist.track_id),",
                     "    savedRecord = store.getAt(savedIndex);",
                     "",
+                    "",
                     "savedRecord.set('saved', false);",
                     "",
                     "store.sync();",
@@ -60,7 +61,6 @@
                     "",
                     "record.set('saved', false);",
                     "",
-                    "//console.log(artist);",
                     "",
                     "panel.hide();"
                 ],
@@ -83,29 +83,47 @@
                     "record"
                 ],
                 "implHandler": [
-                    "console.log(record);",
                     "var store;",
                     "",
                     "",
                     "switch(record) {",
                     "    case 'Day1':",
-                    "        store = Ext.getStore('thursdayArtists');",
-                    "        break;",
+                    "    store = Ext.getStore('thursdayArtists');",
+                    "    break;",
                     "    case 'Day2':",
-                    "    \tstore = Ext.getStore('fridayArtists');",
-                    "        break;",
+                    "    store = Ext.getStore('fridayArtists');",
+                    "    break;",
                     "    case 'Day3':",
-                    "        store = Ext.getStore('saturdayArtists');",
-                    "        break;",
+                    "    store = Ext.getStore('saturdayArtists');",
+                    "    break;",
                     "    case 'Day4':",
-                    "    \tstore = Ext.getStore('fridayArtists');",
-                    "        break;",
+                    "    store = Ext.getStore('sundayArtists');",
+                    "    break;",
                     "}",
                     "",
                     "return store;"
                 ]
             },
             "designerId": "6d9d60c7-d147-4f2e-b1c4-a52a86bf1650"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onViewArtistTap",
+                "implHandler": [
+                    "button.getParent().hide();",
+                    "this.redirectTo('artistDetail');"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#viewArtist"
+            },
+            "designerId": "8cdf4260-8274-4477-9147-ddc554f937b9"
         }
     ]
 }

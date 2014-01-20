@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script src="http://connect.soundcloud.com/sdk.js"></script>
+		<script>
+			SC.initialize({
+  				client_id: 'df942240e3e63f8e23596df0893eab2a'
+			});
+
+			function getSoundcloudID() {
+				// permalink to a track
+				var track_url = $('#soundcloudURL').val(),
+					day = $('#festDay').val(),
+					venue = $('#festVenue').val(),
+					time = $('#festTime').val();
+
+				SC.get('/tracks/'+track_url, {}, function(track) {
+					console.log(track);
+					
+					if (track.artwork_url !== null) {
+						var artwork = track.artwork_url.replace('large','t500x500');
+						//$('#artwork_url').empty().append('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"artwork_url":"'+artwork+'",');
+
+					} else {
+						//$('#artwork_url').empty().append('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"artwork_url":"",');
+
+					}
+            		
+  					$('#username').empty().append('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"permalink_url":"'+track.permalink_url+'",');
+  					$('#permalink_url').empty().append('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"username":"'+track.user.username+'",');
+  					
+
+				});
+			}
+		</script>
+		
+
+	</head>
+	<body>
+		<p>Paste Soundcloud TrackID here...</p>
+		<input id="soundcloudURL"></input><br />
+		<button onClick="getSoundcloudID()">Get Track</button>
+		<div style="display: block;" id="username"></div>
+		<div style="display: block;" id="permalink_url"></div>
+	</body>
+</html>

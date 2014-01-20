@@ -6,18 +6,18 @@
     },
     "codeClass": null,
     "userConfig": {
+        "scrollable": [
+            "{",
+            "    direction: 'vertical',",
+            "    directionLock: true",
+            "}"
+        ],
         "cls": [
             "orangeList"
         ],
         "itemId": "Day4",
         "designer|userClassName": "Day4",
         "designer|userAlias": null,
-        "scrollable": [
-            "{",
-            "    directionLock: true,",
-            "    direction: 'vertical'",
-            "}"
-        ],
         "disableSelection": null,
         "scrollToTopOnRefresh": null,
         "store": "sundayArtists",
@@ -29,7 +29,63 @@
         "scrollable": "object"
     },
     "designerId": "36c1f28b-3a08-4d30-9ac8-833eadc46678",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "scrollable",
+            "type": "string"
+        }
+    ],
     "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "center",
+                "bottom": 0,
+                "docked": "top",
+                "height": 50,
+                "hidden": null,
+                "html": null,
+                "itemId": "sundayListIndicator",
+                "padding": 5,
+                "style": "z-index: 9999 !important; position: absolute; color: #fff; background: rgba(0,0,0, 0.6);",
+                "width": "100%",
+                "zIndex": null,
+                "layout": "hbox"
+            },
+            "designerId": "6e87452a-f7aa-449e-bb93-0c1010521c35",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "<img src=\"img/badge.png\" height=\"40px\" /> "
+                    },
+                    "designerId": "abe9f3ee-41ef-4d62-a442-8dd443a1ee27"
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "<span style=\"margin-top: 10px !important; font-size: 1.3em;\">Sunday, March 23</span>"
+                    },
+                    "designerId": "22536e1d-63e0-4cd4-adf0-c02ec2bddf8f"
+                }
+            ]
+        },
         {
             "type": "Ext.XTemplate",
             "reference": {
@@ -44,27 +100,6 @@
                 "designer|displayName": "itemTpl"
             },
             "designerId": "48e9acda-7871-48ea-9b95-05f6aa967a3e"
-        },
-        {
-            "type": "Ext.Container",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "bottom": 0,
-                "docked": "top",
-                "height": 40,
-                "hidden": true,
-                "html": "<img src=\"img/badge.png\" height=\"20px\" align=\"left\" /> Sunday, March 24",
-                "itemId": "sundayListIndicator",
-                "padding": 5,
-                "style": "z-index: 9999 !important; position: absolute; color: #fff; background: rgba(0,0,0, 0.6);",
-                "width": "100%",
-                "zIndex": null
-            },
-            "designerId": "095c43a3-3489-4f0c-b6c9-6a3ef2cb3054"
         }
     ]
 }

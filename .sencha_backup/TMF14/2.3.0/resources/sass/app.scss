@@ -1,0 +1,73 @@
+// throw out default pictos font
+$include-pictos-font: true;
+$include-default-icons: true;
+$base-gradient: flat;
+$active-color: #eb6145;
+$confirm-color: #424e5a;
+$alert-color: #424e5a;
+$list-active-color: #788b78;
+$basic-slider: true;
+
+
+
+
+
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+// exclude components that app is not using
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/src/Class';
+@import 'sencha-touch/default/src/Button';
+@import 'sencha-touch/default/src/Panel';
+//@import 'sencha-touch/default/src/Sheet';
+//@import 'sencha-touch/default/src/MessageBox';
+@import 'sencha-touch/default/src/Toolbar';
+// @import 'sencha-touch/default/src/carousel/Carousel';
+//@import 'sencha-touch/default/src/form/Panel';
+//@import 'sencha-touch/default/src/form/FieldSet';
+//@import 'sencha-touch/default/src/field/Field';
+//@import 'sencha-touch/default/src/field/Checkbox';
+// @import 'sencha-touch/default/src/field/Radio';
+// @import 'sencha-touch/default/src/field/Search';
+//@import 'sencha-touch/default/src/field/Select';
+//@import 'sencha-touch/default/src/field/Slider';
+//@import 'sencha-touch/default/src/field/Spinner';
+// @import 'sencha-touch/default/src/field/TextArea';
+// @import 'sencha-touch/default/src/dataview/IndexBar';
+@import 'sencha-touch/default/src/dataview/List';
+//@import 'sencha-touch/default/src/picker/Picker';
+//@import 'sencha-touch/default/src/plugin/ListPaging';
+//@import 'sencha-touch/default/src/plugin/PullRefresh';
+//@import 'sencha-touch/default/src/slider/Slider';
+//@import 'sencha-touch/default/src/slider/Toggle';
+//@import 'sencha-touch/default/src/tab/Panel';
+ 
+// embed custom pictos font
+@include font-face(
+ 'Pictos', 
+ inline-font-files(
+ 'icomoon.woff', 
+ woff, 
+ 'icomoon.ttf', 
+ truetype,
+ 'icomoon.svg', 
+ svg
+ )
+);
+
+@include icon("menu"  , "\e601", "Pictos"); // for every icon you have added.
+@include icon("back"  , "\e605", "Pictos"); // for every icon you have added.
+@include icon("play"  , "\e603", "Pictos"); // for every icon you have added.
+@include icon("pause"  , "\e604", "Pictos"); // for every icon you have added.
+@include icon("arrow_right"  , "\e606", "Pictos"); // for every icon you have added.
+@include icon("close"  , "\e602", "Pictos"); // for every icon you have added.
+
+
+// Custom code goes here..
+
+// Examples of using the icon mixin:
+// @include icon('user');

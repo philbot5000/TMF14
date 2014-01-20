@@ -1,0 +1,195 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "About"
+    },
+    "designerId": "772a8d11-b1b3-44c8-8cf0-f0f0ac7785f6",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onPhilTwitterTap",
+                "implHandler": [
+                    "if(Ext.os.is.ios) {",
+                    "    CanOpen('twitter://', function(isInstalled) {",
+                    "        ",
+                    "        if(isInstalled) {",
+                    "            ",
+                    "            document.location = 'twitter://user?screen_name=philmerrell';",
+                    "            ",
+                    "        } else {",
+                    "            ",
+                    "            document.location = 'http://twitter.com/philmerrell';",
+                    "            ",
+                    "        }",
+                    "    });",
+                    "    ",
+                    "}",
+                    "",
+                    "if(Ext.os.is.Android) {",
+                    "    window.open('http://twitter.com/philmerrell', '_system');",
+                    "}"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#philTwitter"
+            },
+            "designerId": "4bc53f83-a30c-4a86-b8ec-e1142d16ea5d"
+        },
+        {
+            "type": "Ext.app.Route",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "about",
+                "fn": "showAbout",
+                "implHandler": [
+                    "var main = Ext.getCmp('main'),",
+                    "    day = Ext.create('TMF14.view.About');",
+                    "",
+                    "main.setActiveItem(day);"
+                ]
+            },
+            "designerId": "9d593332-201b-4024-b576-20ae7c2be0b5"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onPhilWebTap",
+                "implHandler": [
+                    "window.open('http://philmerrell.com', '_blank');"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#philWeb"
+            },
+            "designerId": "d5967d57-825a-4c7e-8df3-d647bd4cd539"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onGifTwitterTap",
+                "implHandler": [
+                    "if(Ext.os.is.ios) {",
+                    "    CanOpen('twitter://', function(isInstalled) {",
+                    "        ",
+                    "        if(isInstalled) {",
+                    "            ",
+                    "            document.location = 'twitter://user?screen_name=GIFTEDTOGETHER';",
+                    "            ",
+                    "        } else {",
+                    "            ",
+                    "            document.location = 'http://twitter.com/GIFTEDTOGETHER';",
+                    "            ",
+                    "        }",
+                    "    });",
+                    "    ",
+                    "}",
+                    "",
+                    "if(Ext.os.is.Android) {",
+                    "    window.open('http://twitter.com/GIFTEDTOGETHER', '_system');",
+                    "}"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#gifTwitter"
+            },
+            "designerId": "b6969ac4-0d86-4047-b0bf-7391785082f9"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onGifWebTap",
+                "implHandler": [
+                    "window.open('http://www.giftedtogether.com/', '_blank');"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#gifWeb"
+            },
+            "designerId": "14e8e8b9-e755-43ad-9d16-ace8ba1c76a1"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onJamesTumblrTap",
+                "implHandler": [
+                    "if(Ext.os.is.ios) {",
+                    "    CanOpen('tumblr://', function(isInstalled) {",
+                    "        ",
+                    "        if(isInstalled) {",
+                    "            ",
+                    "            document.location = 'tumblr://x-callback-url/blog?blogName=jameslloydprojects';",
+                    "            ",
+                    "        } else {",
+                    "            ",
+                    "            document.location = 'http://jameslloydprojects.tumblr.com/';",
+                    "            ",
+                    "        }",
+                    "    });",
+                    "    ",
+                    "}",
+                    "",
+                    "if(Ext.os.is.Android) {",
+                    "    window.open('http://jameslloydprojects.tumblr.com/', '_system');",
+                    "}"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#jamesTumblr"
+            },
+            "designerId": "7f7f8776-c172-4ce1-8df6-b6d9087c4c7d"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onJamesWebTap",
+                "implHandler": [
+                    "window.open('http://jlloydillustration.com/home.html', '_blank');"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#jamesWeb"
+            },
+            "designerId": "83d0efca-8bd2-4b37-808b-12d114415fba"
+        }
+    ]
+}
